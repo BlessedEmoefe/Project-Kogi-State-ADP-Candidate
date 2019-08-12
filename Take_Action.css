@@ -1,0 +1,980 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+    /* font-family: 'Vollkorn', serif; */
+/* font-family: 'Volkhov', serif; */
+/* font-family: 'DM Serif Display', serif; */
+/* font-family: 'Playfair Display SC', serif; */
+/* font-family: 'Philosopher', sans-serif; */
+
+
+}
+
+.container{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-items: inherit;
+    width:100%;
+    height:318vh;
+    background-image:linear-gradient(to top,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("./back1.jpg");
+    background-repeat: no-repeat;
+    /* background-blend-mode: screen; */
+    background-size: cover;
+    font-family: 'Playfair Display SC', serif;
+}
+.container .Header{
+height:18vh;
+width:100%;
+display:flex;
+flex-direction: row;
+background-color:#0F203A;
+font-weight: bold;
+}
+
+.container .Header .LeftSection{
+width:20%;
+height: 95%;
+display: flex;
+/* background-color: blue; */
+border:2px solid brown;
+border-top-right-radius: 50%;
+border-top-left-radius: 50%;
+}
+
+.container .Header .LeftSection .logoSectionForLeftSection{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    /* font-family: 'Philosopher', sans-serif; */
+    
+
+}
+.container .Header .LeftSection .logoSectionForLeftSection .upperSectionOfTheLogoSection{
+width:19%;
+height:7vh;
+text-align: center;
+/* background: #15116D; */
+font-size: 30px;
+padding: 0px;
+position: absolute;
+margin-top: 0vh;
+color:white;
+
+}
+
+.container .Header .LeftSection .logoSectionForLeftSection .middleSectionOfTheLogoSection{
+width:100%;
+height:42%;
+margin-top:3vh;
+/* background: rgb(81, 109, 17); */
+font-size: 50px;
+padding: 0px;
+position: relative;
+color:white;
+}
+.container .Header .LeftSection .logoSectionForLeftSection .bottomSectionOfTheLogoSection{
+    width:19%;
+    height:5vh;
+    text-align: end;
+    /* background: rgb(109, 17, 86);  */
+    font-size: 20px;
+    padding: 0px;
+    position: absolute;
+    margin-top:12vh;
+    color:white;
+}
+
+.container .Header .RightSection{
+    width:80%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-color: blueviolet */
+}
+
+
+.container .Header .RightSection .topHeader{
+    height:7vh;
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+    background:linear-gradient(280deg ,#EFF7FF,#0F203A)
+    
+}
+.container .Header .RightSection .topHeader:hover{
+    background-image: none;
+    background-color:#0F203A;
+    color:white;
+    transition:3s;
+}
+ 
+
+.container .Header .RightSection .topHeader .topHeaderContainer{
+width:100%;
+height:100%;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+font-size: 17px;
+
+}
+
+.container .Header .RightSection .topHeader .topHeaderContainer .topHeaderContainerText{
+width:80%;
+height:70%;
+flex-wrap: wrap;
+display: flex;
+justify-content: center;
+align-content: center;
+flex-grow: inherit;
+/* background-color: blue; */
+/* background-color: transparent; */
+}
+
+.container .Header .RightSection .topHeader .topHeaderContainer .topHeaderContainerIcons{
+    width:20%;
+    height:70%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: inherit;
+    /* background-color:blanchedalmond; */
+}
+
+.container .Header .RightSection .topHeader .topHeaderContainer .topHeaderContainerIcons i{
+   font-size: 25px;
+    color:black;
+    transition: 2s;
+    font-weight: 200;
+
+   
+   
+}
+
+.container .Header .RightSection .topHeader:hover .topHeaderContainer .topHeaderContainerIcons i{
+    font-size: 25px;
+     color:white;
+     transition: 2s;
+     font-weight: 200;
+ 
+    
+    
+ }
+
+.container .Header .RightSection .topHeader .topHeaderContainer .topHeaderContainerIcons i:hover{
+    font-size: 31px;
+     color:white;
+     transition:0.5s;
+     font-weight: 200;
+
+    
+    
+ }
+
+
+
+.container .Header .RightSection .bottomHeader{
+    height:10vh;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    /* background-color:green; */
+}
+.container .Header .RightSection .bottomHeader .rightSectionOfBottomHeader{
+width:20%;
+height:inherit;
+/* background-color: aquamarine */
+
+}
+
+.container .Header .RightSection .bottomHeader .middleSectionOfBottomHeader{
+    width:60%;
+    height:inherit;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-grow: inherit;
+    /* background-color: yellow */
+}
+
+
+.container .Header .RightSection .bottomHeader .middleSectionOfBottomHeader li{
+list-style: none;
+align-self: center;
+
+
+
+}
+
+.container .Header .RightSection .bottomHeader .middleSectionOfBottomHeader li a:link{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    transition: 1s;
+    border:0 1px;
+}
+
+.container .Header .RightSection .bottomHeader .middleSectionOfBottomHeader li a:hover{
+    text-decoration: none;
+    color:rgb(218, 211, 211);
+    font-size: 20px;
+    transition: 1s;
+    border-bottom: 1px solid white;
+}
+
+.container .Header .RightSection .bottomHeader .middleSectionOfBottomHeader li a:visited{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    transition: 1s;
+    border:0 1px;
+}
+
+.container .Header .RightSection .bottomHeader .middleSectionOfBottomHeader li a:active{
+    text-decoration: none;
+    color:#15116D;
+    background-image: linear-gradient(to top,#A0D1DB,transparent);
+    font-size: 10px;
+    transition: 1s;
+    border:0 1px;
+}
+
+
+.container .Header .RightSection .bottomHeader .leftSectionOfBottomHeader{
+    width:20%;
+    height:inherit;
+    /* background-color: brown; */
+    display:flex;
+    align-items: center;
+
+}
+
+.container .Header .RightSection .bottomHeader .leftSectionOfBottomHeader button{
+    width:95%;
+    margin:0 auto;
+    height:90%;
+    background:linear-gradient(280deg ,#EFF7FF,#0F203A);
+    border:1px solid transparent;
+    border-radius:3px;
+    color:white;
+    font-size: 20px;
+    font-weight:bolder;
+    
+}
+.container .Header .RightSection .bottomHeader .leftSectionOfBottomHeader button:hover{
+    transition: 1.5s;
+    background-image:linear-gradient(200deg,#15116D,red) ;
+    font-size: 23px;
+    transition:1.5s;
+
+
+}
+
+.container .Header .RightSection .bottomHeader .leftSectionOfBottomHeader button a .containerForButton{
+    width:100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background-color: #A0D1DB */
+}
+.container .Header .RightSection .bottomHeader .leftSectionOfBottomHeader button a:hover{
+color: white;
+text-decoration: none;
+}
+
+.container .Header .RightSection .bottomHeader .leftSectionOfBottomHeader button a:active{
+    color: white;
+    text-decoration: none;  
+}
+.container .Header .RightSection .bottomHeader .leftSectionOfBottomHeader button a:link{
+    color: white;
+text-decoration: none;
+}
+.container .Header .RightSection .bottomHeader .leftSectionOfBottomHeader button a:visited{
+    color: white;
+text-decoration: none;
+}
+
+
+
+
+
+
+.container .Header .RightSection .bottomHeader .leftSectionOfBottomHeader button i{
+    display:none;
+    margin-left: 4px;
+}
+
+.container .Header .RightSection .bottomHeader .leftSectionOfBottomHeader button:hover i{
+    display: inline-block;
+    transition: 2s;
+    
+    color:white;
+}
+
+.container .Middle{
+    height:250vh;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+
+    /* background-image:linear-gradient(to top,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url("./back1.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    background-size: cover; */
+}
+
+.container .Middle .MiddleSectionContainer{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+
+
+}
+
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection{
+    width:100%;
+    height:56%;
+    background-color: #EFF7FF;
+    display:flex;
+    flex-direction: column;
+    }
+    
+    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .HeaderForFirstSectionOfMiddleSection{
+    width:100%;
+    height:20%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(0, 13, 128);
+    font-size:40px;
+    align-items:center;
+    }
+    
+    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection{
+        width:100%;
+        height:70%;
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: rgb(0, 92, 128);
+        } 
+    
+    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .formForSecondSectionForFirstSectionOfMiddleSection{
+    width:40%;
+    height:100%;
+    border:1px solid red;
+    display:flex;
+    justify-content: space-around
+    }
+    
+    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .imageForSecondSectionForFirstSectionOfMiddleSection{
+        width:60%;
+        height:100%;
+        border:1px solid red;
+        display:flex;
+        justify-content: space-around;
+        background-image: url("./back1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-attachment: fixed; */
+    
+        }
+
+
+.container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection{
+    width:100%;
+height:30%;
+background-color: rgb(154, 168, 43)
+}
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection{
+    width:100%;
+height:30%;
+background-color: red
+}
+
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .fifthSectionOfMiddleSection{
+    width:100%;
+height:100%;
+/* margin-top:3%; */
+background-color: rgb(68, 41, 41);
+background-image:linear-gradient(1deg,rgb(252, 249, 249),rgb(0, 0, 0)) ;
+background-image:linear-gradient(30deg,rgb(252, 249, 249),rgb(0, 0, 0));
+background-image:linear-gradient(60deg,rgb(252, 249, 249),rgb(0, 0, 0));
+background-image:linear-gradient(90deg,rgb(252, 249, 249),rgb(0, 0, 0));
+background-image:linear-gradient(110deg,rgb(252, 249, 249),rgb(0, 0, 0));
+background-image:linear-gradient(140deg,rgb(252, 249, 249),rgb(0, 0, 0));
+background-image:linear-gradient(170deg,rgb(252, 249, 249),rgb(0, 0, 0));
+background-image:linear-gradient(200deg,rgb(252, 249, 249),rgb(0, 0, 0));
+background-image:linear-gradient(230deg,rgb(252, 249, 249),rgb(0, 0, 0));
+background-image:linear-gradient(260deg,rgb(252, 249, 249),rgb(0, 0, 0));
+background-image:linear-gradient(290deg,rgb(252, 249, 249),rgb(0, 0, 0));
+background-image:linear-gradient(310deg,rgb(252, 249, 249),rgb(0, 0, 0));
+background-image:linear-gradient(340,rgb(252, 249, 249),rgb(0, 0, 0));
+background-image:linear-gradient(360deg,rgb(252, 249, 249),rgb(0, 0, 0));
+animation: slider 15s infinite linear;
+transition:5s;
+}
+
+
+@keyframes slider{
+    4%{background-image:linear-gradient(0deg,rgb(252, 249, 249),rgb(0, 0, 0)) }
+   12%{ background-image:linear-gradient(30deg,rgb(252, 249, 249),rgb(0, 0, 0))};
+    20%{ background-image:linear-gradient(60deg,rgb(252, 249, 249),rgb(0, 0, 0))};
+   28% {background-image:linear-gradient(90deg,rgb(252, 249, 249),rgb(0, 0, 0))};
+   36% {background-image:linear-gradient(110deg,rgb(252, 249, 249),rgb(0, 0, 0))};
+    44%{background-image:linear-gradient(140deg,rgb(252, 249, 249),rgb(0, 0, 0))};
+    52%{background-image:linear-gradient(170deg,rgb(252, 249, 249),rgb(0, 0, 0))};
+    60%{background-image:linear-gradient(200deg,rgb(252, 249, 249),rgb(0, 0, 0))};
+
+    68%{background-image:linear-gradient(230deg,rgb(252, 249, 249),rgb(0, 0, 0))};
+    76%{background-image:linear-gradient(260deg,rgb(252, 249, 249),rgb(0, 0, 0))};
+    84%{background-image:linear-gradient(290deg,rgb(252, 249, 249),rgb(0, 0, 0))};
+    90%{background-image:linear-gradient(310deg,rgb(252, 249, 249),rgb(0, 0, 0))};
+   94%{ background-image:linear-gradient(340,rgb(252, 249, 249),rgb(0, 0, 0))};
+   100% {background-image:linear-gradient(360deg,rgb(252, 249, 249),rgb(0, 0, 0))};
+    /* transition:3s; */
+    
+
+}
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .fifthSectionOfMiddleSection .InputForFirstSectionOfMiddleSection{
+    width:90%;
+    height:35%;
+    top:34%;
+    left:2%;
+    position: relative;
+    /* border:1px solid black; */
+    /* background-color: #15116D; */
+    display:flex;
+    flex-direction: column;
+   font-weight:bolder;
+}
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .fifthSectionOfMiddleSection .InputForFirstSectionOfMiddleSection .firstTextForInputForFirstSectionOfMiddleSection{
+    width:80%;
+    height:40%;
+    margin:0 auto;
+    /* background-color: aquamarine; */
+    font-size:63px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    line-height: 100%;
+    font-family: 'Playfair Display SC', serif;
+    color:#0F203A;
+    
+}
+
+
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .fifthSectionOfMiddleSection .InputForFirstSectionOfMiddleSection .secondTextForInputForFirstSectionOfMiddleSection{
+    
+width:87%;
+height:20%;
+/* background-color: rgb(240, 127, 255); */
+font-size:15px;
+display: flex;
+margin: 0 auto;
+flex-wrap: wrap;
+align-items:flex-start;
+color:whitesmoke;
+top:0%;
+
+    
+}
+
+
+
+
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .fifthSectionOfMiddleSection .InputForFirstSectionOfMiddleSection .signUpSectionForInputForFirstSectionOfMiddleSection{
+    width:80%;
+height:40%;
+background-image:linear-gradient(rgba(236, 229, 229, 0.205), rgba(92, 89, 89, 0.8)) ;
+margin-left:6%;
+display:flex;
+justify-content:space-around ;
+align-items: center;
+border:1px solid transparent;
+border-radius:2px;
+font-family: 'Playfair Display SC', serif;
+/* border:2px solid #15116D; */
+ 
+color:whitesmoke
+}
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .fifthSectionOfMiddleSection .InputForFirstSectionOfMiddleSection .signUpSectionForInputForFirstSectionOfMiddleSection input{
+    width:37%;
+    height:80%;
+    font-size:14px;
+    background-color: antiquewhite;
+    border:2px solid transparent;
+    border-radius:1px;
+    margin: 0 auto;
+
+}
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .fifthSectionOfMiddleSection .InputForFirstSectionOfMiddleSection .signUpSectionForInputForFirstSectionOfMiddleSection button{
+    width:10%;
+    height:76%;
+    font-size:20px;
+    background-color: #0F203A;
+    border:2px solid transparent;
+    border-radius:10px;
+    color:white;
+    font-family: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+
+
+
+.container .Footer{
+    height:50vh;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    background-image:linear-gradient(to right,rgba(11, 3, 59, 0.794),rgba(0, 0, 0, 0.781));
+    /* background:rgba(5, 45, 85, 0.925); */
+    color:white;
+    transition: 2s;
+}
+.container .Footer .footerContainer:hover{
+    background:rgba(5, 45, 85, 0.925);
+    transition:2s;
+}
+
+.container .Footer .footerContainer{
+width:100%;
+height:100%;
+display: flex;
+flex-direction: column;
+
+}
+.container .Footer .footerContainer .firstSectionOfFooter{
+width:100%;
+height:80%;
+display:flex;
+justify-content: space-around;
+flex-direction: row;
+/* background-clip: border-box; */
+/* background-color: #15116D; */
+}
+
+
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter{
+/* background-color: aquamarine; */
+width:30%;
+height:100%;
+display:flex;
+justify-content: center;
+flex-direction: column;
+align-items: flex-start;
+
+
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .firstSectionOfleftSectionForFirstSectionOfFooter{
+width:100%;
+height:20%;
+/* font-weight: bolder; */
+/* background-color: rgb(104, 7, 7); */
+word-spacing: 6px;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .secondSectionOfleftSectionForFirstSectionOfFooter{
+    width:100%;
+    height:13%;
+    /* background-color: rgb(26, 119, 138);   */
+    font-family:'Volkhov', serif;
+}
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .thirdSectionOfleftSectionForFirstSectionOfFooter{
+    width:100%;
+height:13.5%;
+/* background-color: rgb(160, 169, 219); */
+font-family:  serif;
+}
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .forthSectionOfleftSectionForFirstSectionOfFooter{
+    width:100%;
+height:13.5%;
+/* background-color: rgb(219, 160, 211); */
+/* font-family: 'Volkhov', serif; */
+font-family: 'Philosopher', sans-serif;
+
+}
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .fifthSectionOfleftSectionForFirstSectionOfFooter{
+    width:100%;
+    height:20%;
+    /* background-color: rgb(219, 160, 163);  */
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .sixthSectionOfleftSectionForFirstSectionOfFooter{
+    width:100%;
+height:20%;
+/* background-color: rgb(33, 37, 37); */
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .fifthSectionOfleftSectionForFirstSectionOfFooter .containerForFifthSectionOfleftSectionForFirstSectionOfFooter{
+ width:96%;
+ height:100%;
+ /* margin: 0 auto; */
+ border:1px solid white;
+ color:white;
+ box-shadow: 2px;
+ /* background-color: rgb(41, 51, 65); */
+ font-size: 14px;
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.container .Footer .footerContainer .firstSectionOfFooter .middleSectionForFirstSectionOfFooter{
+    /* background-color: rgb(127, 146, 255); */
+width:40%;
+height:100%;
+display: flex;
+flex-direction: column;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .middleSectionForFirstSectionOfFooter .containerForLogoSection{
+width:100%;
+height:75%;
+display:flex;
+justify-content: center;
+/* background-color: #15116D; */
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .middleSectionForFirstSectionOfFooter .containerForLogoSection .logoSectionForFooter{
+width:60%;
+margin: 0 auto;
+height:100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+/* background-color: white; */
+border:2px solid red;
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+
+
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .middleSectionForFirstSectionOfFooter .containerForLogoSection .logoSectionForFooter .upperSectionOfTheLogoSectionFooter{
+    width:19%;
+height:7vh;
+text-align: center;
+/* background: #15116D; */
+font-size: 40px;
+padding: 0px;
+position: absolute;
+margin-top: -5.3vh;
+color:white;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .middleSectionForFirstSectionOfFooter .containerForLogoSection .logoSectionForFooter .middleSectionOfTheLogoSectionFooter{
+    width:100%;
+    height:42%;
+    margin-top:2vh;
+    /* background: rgb(81, 109, 17); */
+    font-size: 60px;
+    padding: 0px;
+    position: relative;
+    color:white;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .middleSectionForFirstSectionOfFooter .containerForLogoSection .logoSectionForFooter .bottomSectionOfTheLogoSectionFooter{
+    width:23%;
+        height:5vh;
+        text-align: end;
+        /* background: rgb(109, 17, 86);  */
+        font-size: 24px;
+        padding: 0px;
+        position: absolute;
+        margin-top:9vh;
+        color:white;
+}
+
+
+
+
+
+.container .Footer .footerContainer .firstSectionOfFooter .middleSectionForFirstSectionOfFooter .textForMiddleSectionForFirstSectionOfFooter{
+    width:100%;
+    height:25%;
+    display:flex;
+    justify-content:center;
+    font-size: 60px;
+    text-align: center;
+    padding: 0px;
+    align-items: center;
+
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .middleSectionForFirstSectionOfFooter .textForMiddleSectionForFirstSectionOfFooter label{
+    padding:0px;
+}
+
+
+
+
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter{
+    /* background-color: rgb(255, 127, 206); */
+    width:30%;
+    height:100%; 
+    display:flex;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+    /* flex-direction: column; */
+}
+
+ .container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter{
+    display:flex;
+    /* justify-content: space-around; */
+    /* align-items: flex-start; */
+    flex-direction: column;
+    width:70%;
+    height:100%;
+    /* background-color: black; */
+ }
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .firstSectionOfrightSectionForFirstSectionOfFooter{
+width:80%;
+height:20%;
+/* background-color: aquamarine; */
+margin:0 auto;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .firstSectionOfrightSectionForFirstSectionOfFooter .iconsForMiddleSectionForFirstSectionOfFooter{
+    width:80%;
+    height:90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:0 auto;
+
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .firstSectionOfrightSectionForFirstSectionOfFooter .iconsForMiddleSectionForFirstSectionOfFooter i{
+    color:white;
+    font-size: 25px;
+
+    
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .firstSectionOfrightSectionForFirstSectionOfFooter .iconsForMiddleSectionForFirstSectionOfFooter i:hover{
+    color:whitesmoke;
+    font-size: 34px;
+    transition:0.5s;
+    margin-left: -10px;
+
+    
+}
+
+
+
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .secondSectionOfrightSectionForFirstSectionOfFooter{
+    width:80%;
+    height:45%;
+    /* background-color: rgb(255, 127, 244);   */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .secondSectionOfrightSectionForFirstSectionOfFooter img{
+    border:1px solid transparent;
+    border-radius: 50%;
+
+}
+
+
+
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .thirdSectionOfrightSectionForFirstSectionOfFooter{
+    width:80%;
+height:25%;
+/* background-color: rgb(217, 255, 127); */
+margin:0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .thirdSectionOfrightSectionForFirstSectionOfFooter button{
+    width:95%;
+    margin:0 auto;
+    height:90%;
+    background:linear-gradient(280deg ,#EFF7FF,#0F203A);
+    border:1px solid transparent;
+    border-radius:3px;
+    color:white;
+    font-size: 20px;
+    font-weight:bolder;
+}
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .thirdSectionOfrightSectionForFirstSectionOfFooter button i{
+    display:none;
+    margin-left: 4px;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .thirdSectionOfrightSectionForFirstSectionOfFooter button:hover{
+    transition: 1.5s;
+    background-image:linear-gradient(200deg,#15116D,red) ;
+    font-size: 23px;
+    transition:2.3s;  
+}
+
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .thirdSectionOfrightSectionForFirstSectionOfFooter button a .containerForButton{
+    width:100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none
+     /* background-color: #A0D1DB */
+}
+
+    .container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .thirdSectionOfrightSectionForFirstSectionOfFooter button a:hover{
+    color: white;
+    text-decoration: none;
+    }
+    
+    .container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .thirdSectionOfrightSectionForFirstSectionOfFooter button a:active{
+        color: white;
+        text-decoration: none;  
+    }
+    .container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .thirdSectionOfrightSectionForFirstSectionOfFooter button a:link{
+    color: white;
+    text-decoration: none;
+    }
+    .container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .thirdSectionOfrightSectionForFirstSectionOfFooter button a:visited{
+    color: white;
+    text-decoration: none; 
+    
+    }
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .thirdSectionOfrightSectionForFirstSectionOfFooter button:hover i{
+    display: inline-block;
+    transition: 2.5s;
+    
+    color:white;
+}
+
+
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .forthSectionOfrightSectionForFirstSectionOfFooter{
+    width:80%;
+/* height:10%; */
+background-color: rgb(70, 80, 77);
+margin:0 auto;
+}
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .lastSectionOfrightSectionForFirstSectionOfFooter{
+    width:30%;
+height:100%;
+/* background-color: aquamarine; */
+}
+
+
+
+.container .Footer .footerContainer .secondSectionOfFooter{
+    width:100%;
+height:20%;
+display:flex;
+justify-content: space-between;
+flex-direction: row;
+background-color:black;
+color:white;
+
+
+}
+
+.container .Footer .footerContainer .secondSectionOfFooter .leftSectionForSecondSectionOfFooter{
+width:40%;
+height:100%;
+/* background-color: rgb(58, 50, 15); */
+display:flex;
+align-items: center;
+justify-content: space-between;
+word-spacing: 6px;
+padding-left: 10px;
+}
+
+
+
+.container .Footer .footerContainer .secondSectionOfFooter .middleSectionForSecondSectionOfFooter{
+    width:30%;
+    height:100%;
+    /* background-color: rgb(109, 108, 101); */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .Footer .footerContainer .secondSectionOfFooter .middleSectionForSecondSectionOfFooter footer a:link{
+color:rgb(221, 194, 194);
+font-size: 15px;
+transition:1s;
+text-decoration: none
+}
+
+.container .Footer .footerContainer .secondSectionOfFooter .middleSectionForSecondSectionOfFooter footer a:hover{
+    color:rgb(12, 2, 109);
+font-size: 20px;
+transition:1s;
+text-transform: capitalize;
+}
+
+.container .Footer .footerContainer .secondSectionOfFooter .middleSectionForSecondSectionOfFooter footer a:active{
+    color:rgb(253, 253, 253);
+font-size: 15px;
+transition:1s;
+text-transform: capitalize;
+}
+
+.container .Footer .footerContainer .secondSectionOfFooter .middleSectionForSecondSectionOfFooter footer a:visited{
+    color:rgb(221, 194, 194);
+font-size: 15px;
+transition:1s;
+text-transform: capitalize;
+}
+
+
+.container .Footer .footerContainer .secondSectionOfFooter .rightSectionForSecondSectionOfFooter{
+    width:30%;
+height:100%;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+/* background-color: rgb(58, 15, 21); */
+}
+
+.container .Footer .footerContainer .secondSectionOfFooter .rightSectionForSecondSectionOfFooter .containerForrightSectionForSecondSectionOfFooter{
+    width:70%;
+    margin-right:3px;
+    height:70%;
+    color:whitesmoke;
+    border:1px solid white;
+    box-shadow: 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
