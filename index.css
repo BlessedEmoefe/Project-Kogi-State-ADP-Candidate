@@ -17,7 +17,7 @@
     flex-direction: column;
     justify-items: inherit;
     width:100%;
-    height:618vh;
+    height:668vh;
   background: white;
     background-repeat: no-repeat;
     /* background-blend-mode: screen; */
@@ -195,7 +195,7 @@ height:inherit;
 }
 
 .container .Header .RightSection .bottomHeader .middleSectionOfBottomHeader{
-    width:60%;
+    width:75%;
     height:inherit;
     display:flex;
     justify-content: space-around;
@@ -341,7 +341,7 @@ align-self: center;
 
 
 .container .Middle{
-    height:550vh;
+    height:600vh;
     width:100%;
     display:flex;
     flex-direction: column;
@@ -357,6 +357,7 @@ align-self: center;
     height:100%;
     display:flex;
     flex-direction: column;
+    justify-content: space-between;
 
 
 }
@@ -366,7 +367,7 @@ align-self: center;
 
 .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection{
 max-width:100%;
-height:20%;
+height:18%;
 /* animation: slider 4s infinite linear; */
 background-size:cover;
 /* background-attachment: local; */
@@ -382,7 +383,7 @@ background-repeat: no-repeat;
     width:100%;
     height:100%;
     /* background-color: #15116D; */
-    background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0,0,0,0.01)) ,url("./back2.jpg");
+    background-image:linear-gradient(to left,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.541)) ,url("./sir1.jpg");
     /* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("./adplogo.jpg");
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("./kogiStatemap.jpg");
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("./image1.png");
@@ -390,8 +391,7 @@ background-repeat: no-repeat;
     background-size:cover;
 /* background-attachment: local; */
 background-repeat: no-repeat;
-background-position: top-right;
-
+background-position: center;
 /* animation:slider 30s infinite linear; */
 
 }
@@ -422,10 +422,12 @@ background-position: top-right;
 .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .containerForFirstSectionOfMiddleSection .InputForFirstSectionOfMiddleSection{
     width:42%;
     height:50%;
-    top:20vh ;
+    top:48vh ;
     left:1%;
-    /* border:1px solid black; */
-    /* background-color: #15116D; */
+    border-top-right-radius:20%;
+    border-bottom-left-radius:25%;
+    border:1px solid rgba(0, 0, 0, 0.404);
+    background-color: rgba(228, 222, 222, 0.294);
     position:relative;
     display:flex;
     flex-direction: column;
@@ -506,8 +508,8 @@ color:whitesmoke
 
 .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection{
     width:100%;
-height:15%;
-/* background-color: rgb(154, 168, 43); */
+height:20%;
+background-color:white;
 display:flex;
 flex-direction: column;
 /* position: sticky;
@@ -522,9 +524,9 @@ flex-direction: column;
 
 .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .timerForSecondSectionOfMiddleSection{
     width:90%;
-    margin: 0 auto;
-    height:25%;
-    /* background-color: rgb(17, 109, 74);  */
+    margin: 2% auto 0 auto;
+    height:20%;
+    background-color:  #d9d9d9; 
     display: flex;
     justify-content: center;
     position: sticky;
@@ -555,7 +557,7 @@ flex-direction: column;
     width:60%;
     display: flex;
     height:100%;
-    color:white; 
+    color: #0F203A; 
     word-spacing: 20%;
     align-items: center;
     justify-content: center;
@@ -580,63 +582,70 @@ flex-direction: column;
 
 .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .secondForSecondSectionOfMiddleSection{
     width:90%;
-    height:35%;
-    background-color: #0F203A; 
+    height:40%;
+    background-color: #EFEFEF; 
     display:flex;
     justify-content: center;
     align-items: center;
-    margin:0 auto;
+    margin:2% auto 0 auto;
 }
 
 .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .secondForSecondSectionOfMiddleSection .headerSectionForSecondForSecondSectionOfMiddleSection{
-width:40%;
-height:100%;
+width:30%;
+height:60%;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
-font-size: 43px;
-background-color: red;
+margin-left:5%;
+font-size: 44px;
+background-color:#0F203A;
+/* border:1px solid red; */
 align-items: center;
-word-spacing: 30%;
-color:whitesmoke;
+word-spacing: 20%;
+color:#0F203A;
 
 }
 
 .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .secondForSecondSectionOfMiddleSection .headerSectionForSecondForSecondSectionOfMiddleSection p{
     width:90%;
-    height:90%;
-    margin:0 auto;
-    /* background-color: black; */
+    height:70%;
+    margin:0 auto 0 auto;
+    border:2px solid rgb(114, 113, 113);
+    background-color:#EFEFEF;
     }
 
 
 .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .secondForSecondSectionOfMiddleSection .textSectionForSecondForSecondSectionOfMiddleSection{
-    width:60%;
+    width:70%;
     height:100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     /* text-align: center; */
-    font-size: 20px;
+    font-size: 17px;
     /* background-color: aquamarine; */
-    color:rgb(245, 245, 245); 
+    color:#0F203A; 
 }
 
-
+.container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .secondForSecondSectionOfMiddleSection .textSectionForSecondForSecondSectionOfMiddleSection p{
+    width:90%;
+    margin:0 auto;
+}
 
 .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .thirdForSecondSectionOfMiddleSection{
     width:90%;
-    height:40%;
-    background-color: rgb(109, 103, 17); 
-    margin: 0 auto;
+    height:35%;
+    background-color: #EFEFEF; 
+        margin: 0 auto 2% auto;;
+        color:#0F203A;
 }
 
 .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .thirdForSecondSectionOfMiddleSection .textSectionForThirdForSecondSectionOfMiddleSection{
     width:90%;
     height:40%;
-    background-color: rgb(109, 103, 17); 
+    /* background-color: rgb(109, 103, 17);  */
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 
@@ -644,12 +653,13 @@ color:whitesmoke;
 
 
 .container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection{
-    width:100%;
-height:20%;
+    width:90%;
+height:18.5%;
 /* background-color: white; */
 display:flex;
-flex-direction: column
-
+flex-direction: column;
+border-radius:10px;
+margin:0 auto;
 }
 
 .container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection{
@@ -658,6 +668,7 @@ height:100%;
 /* background-color: aqua; */
 display:flex;
 flex-direction: column;
+border-radius:10px;
 }
 
 
@@ -667,46 +678,50 @@ flex-direction: column;
     height:90%;
     /* background-color: rgb(4, 0, 255);   */
     display:flex;
-
+    border-radius:10px;
 }
 
 
 
 .container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection .rightSectionInContainerForThirdSectionOfMiddleSection{
-    width:50%;
+    width:60%;
 height:100%;
-background-image:linear-gradient(120deg ,rgba(239, 247, 255, 0.781),#0F203A);
+/* background-image:linear-gradient(120deg ,rgba(239, 247, 255, 0.781),#0F203A); */
+background:#EFEFEF;
+border-top-right-radius:30%;
+/* border-bottom-right-radius:10px; */
 }
 
 .container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection .rightSectionInContainerForThirdSectionOfMiddleSection .containerForTextInRightSectionInContainerForThirdSectionOfMiddleSection{
-    width:80%;
-    height:80%;
-    margin:10% auto;
+    width:90%;
+    height:98%;
+    margin:1% auto;
     /* background-color: white; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     text-align:center;
-    color:white;
+    color:#0F203A;
 }
 
 .container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection .rightSectionInContainerForThirdSectionOfMiddleSection .containerForTextInRightSectionInContainerForThirdSectionOfMiddleSection .container1{
 font-size: 50px;
 color:#0F203A;
 font-weight: bolder;
-width:70%;
+width:90%;
 margin:0 auto;
-height:20%;
+height:16%;
 /* background-color: red; */
 bottom:4%
 }
 .container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection .rightSectionInContainerForThirdSectionOfMiddleSection .containerForTextInRightSectionInContainerForThirdSectionOfMiddleSection .container2{
-    font-size: 24px;
-    color:rgb(199, 195, 195);
+    font-size: 20px;
+    color:#0F203A;
     /* font-weight; */
     word-spacing: 10%;
+    overflow: hidden;
     text-transform: capitalize;
-   height:60%;
+   height:68%;
 /* background-color: black; */
 font-family: 'Philosopher', sans-serif;
 
@@ -717,7 +732,7 @@ font-family: 'Philosopher', sans-serif;
 .container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection .rightSectionInContainerForThirdSectionOfMiddleSection .containerForTextInRightSectionInContainerForThirdSectionOfMiddleSection .container3{
     
 width:100%;
-height:20%;
+height:16%;
 /* background-color: aquamarine; */
 top:10%;
 
@@ -732,8 +747,10 @@ top:10%;
     text-transform: capitalize;
     width:50%;
     background-color: #0F203A;
+    margin-top:2%;
     height:70%;
     top:20%;
+    border:1px solid #EFEFEF;
    
    
 font-family: 'Philosopher', sans-serif;
@@ -743,12 +760,18 @@ font-family: 'Philosopher', sans-serif;
 }
 
 .container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection .rightSectionInContainerForThirdSectionOfMiddleSection .containerForTextInRightSectionInContainerForThirdSectionOfMiddleSection .container3 button:hover{
-opacity:0.7;
+opacity:0.9;
+background: #EFEFEF;
+color:#0F203A;
+border-radius:5px;
+border:1px solid #0F203A;
+font-size:25px;
+transition:1s;
 }
 
 
 .container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection .leftSectionInContainerForThirdSectionOfMiddleSection{
-    width:50%;
+    width:40%;
 height:100%;
 /* background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./adplogo.jpg"); */
 /* background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./back1.png"); */
@@ -759,6 +782,8 @@ height:100%;
 margin-left: auto;
 margin-right: auto;
 /* background-color: #7fffd4; */
+/* border-top-left-radius:10px; */
+border-bottom-left-radius:30%;
 border: none;
 overflow: hidden;
 text-align: center;
@@ -766,7 +791,7 @@ text-align: center;
 
 
 .image-container{
-    width:2720px;
+    width:2520px;
     margin-left: auto;
     margin-right: auto;
     height:90vh;
@@ -783,7 +808,8 @@ float:left
         
     }
     .button-container{
-    top:-40px;
+     /* background-color: rgb(4, 0, 25 ); */
+    top:-70px;
     position: relative;
     width:25%;
     left:40%;
@@ -801,15 +827,15 @@ float:left
     }
     
     #slider-image-2:target ~ .image-container{
-    left:-680px;
+    left:-630px;
     }
     
     #slider-image-3:target ~ .image-container{
-    left:-1360px;
+    left:-1260px;
     }
     
     #slider-image-4:target ~ .image-container{
-    left:-2040px;
+    left:-1890px;
     }
 
 
@@ -831,8 +857,8 @@ flex-wrap: wrap;
 
 .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection{
     width:100%;
-height:25%;
-background-color:rgb(255, 255, 255);
+height:23%;
+/* background-color:#EFEFEF; */
 
 }
 
@@ -840,7 +866,9 @@ background-color:rgb(255, 255, 255);
     width:88%;
     height:80%;
     margin:5% auto;
-    background-color:grey;
+    background-color:#EFEFEF;
+    border:5px solid grey;
+    border-radius:10px;
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -852,9 +880,9 @@ background-color:rgb(255, 255, 255);
 
 .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .headerContainer{
     width:100%;
-    height:10%;
-    /* background: red; */
-    color:rgb(28, 28, 29);
+    height:15%;
+    background-color:#d9d9d9;
+    color:#0F203A;
     font-size: 50px;
     font-weight: bolder;
     justify-content: center;
@@ -869,7 +897,9 @@ background-color:rgb(255, 255, 255);
     /* margin:0 auto; */
     /* background-color:rgb(248, 242, 242); */
     display:flex;
+    justify-content: space-evenly;
     /* flex-wrap: wrap; */
+    transition:2s;
    
     
 
@@ -877,23 +907,26 @@ background-color:rgb(255, 255, 255);
 }
 
 .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .firstSliderImage{
-    width:600px;
+    width:570px;
     height:100%;
     /* margin:0 auto; */
-    /* background-color:rgb(22, 9, 80); */
+    /* background-color:rgb(208, 208, 211); */
     display:flex;
     /* flex-wrap: wrap; */
     flex-direction: column;
     text-align: center;
-
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border:1px solid green;
 }
 
 .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .firstSliderImage .firstSectionOfSliderImage1{
 width:100%;
 height:15%; 
- background: #A0D1DB;
+ background:#0F203A ;
 
- font-size: 40px;
+ font-size: 30px;
+ color:white;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -904,14 +937,17 @@ height:15%;
 
 .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .firstSliderImage .secondSectionOfSliderImage1{
     width:100%;
-    height:70%;
-    background: rgb(47, 49, 151); 
+    height:60%;
+    /* background: #0F203A;  */
     
 font-size: 20px;
  display: flex;
  justify-content:flex-start;
- align-items: center;
+ padding-top:10%;
+ /* align-content: center; */
  flex-direction: column;
+ overflow:hidden;
+ border:2px solid whitesmoke;
  flex-wrap: wrap;
 
 }
@@ -919,7 +955,7 @@ font-size: 20px;
 .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .firstSliderImage .thirdSectionOfSliderImage1{
     width:100%;
     height:15%;
-    background: rgb(147, 47, 151);
+    /* background: rgb(147, 47, 151); */
     
     font-size: 20px;
  display: flex;
@@ -930,17 +966,46 @@ font-size: 20px;
 
 }
 
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .firstSliderImage .thirdSectionOfSliderImage1 button{
+    width:80%;
+
+    height:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid white;
+    border-radius:4px;
+    color:white;
+    background-color:#0F203A;
+    font-size:27px;
+
+}
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .firstSliderImage .thirdSectionOfSliderImage1 button:hover{
+    width:50%;
+    height:70%;
+    border:1px solid #0F203A;
+    transition:1s;
+    color:#0F203A;
+    background-color:#EFEFEF;
+    font-size:23px;
+
+}
+
 
 
 
 .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .secondSliderImage{
-    width:600px;
+    width:570px;
     height:100%;
     /* margin:0 auto; */
-    background-color:rgb(61, 80, 9);
+    /* background-color:rgb(61, 80, 9); */
     display:flex;
     /* flex-wrap: wrap; */
     flex-direction: column;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border:1px solid green;
     
 
 }
@@ -948,34 +1013,83 @@ font-size: 20px;
 .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .secondSliderImage .firstSectionOfSliderImage2{
     width:100%;
     height:15%; 
-     background: rgb(184, 219, 160);
+     background:#0F203A ;
+    
+     font-size: 30px;
+     color:white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight: bolder;
+     flex-wrap: wrap;
     
     }
     
     .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .secondSliderImage .secondSectionOfSliderImage2{
         width:100%;
-        height:70%;
-        background: rgb(240, 240, 243);   
+        height:60%;
+        /* background: #0F203A;  */
+        
+    font-size: 20px;
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     padding-top:10%;
+     flex-direction: column;
+     /* text-align: center; */
+     overflow:hidden;
+     border:2px solid whitesmoke;
+     flex-wrap: wrap;
+      
     }
     
     .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .secondSliderImage .thirdSectionOfSliderImage2{
         width:100%;
         height:15%;
-        background: rgb(50, 151, 47);   
+        /* background: rgb(50, 151, 47);    */
+        display: flex;
+ justify-content: center;
+ align-items: center;
     }
 
+    .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .secondSliderImage .thirdSectionOfSliderImage2 button{
+    width:80%;
     
+    height:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid white;
+    border-radius:4px;
+    color:white;
+    background-color:#0F203A;
+    font-size:27px;
 
+}
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .secondSliderImage .thirdSectionOfSliderImage2 button:hover{
+    width:50%;
+    height:70%;
+    border:1px solid #0F203A;
+    transition:1s;
+    color:#0F203A;
+    background-color:#EFEFEF;
+    font-size:23px;
+
+}
 
 
 .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .thirdSliderImage{
-    width:600px;
+    width:570px;
     height:100%;
     /* margin:0 auto; */
-    background-color:rgb(9, 80, 9);
+    /* background-color:rgb(9, 80, 9); */
     display:flex;
     /* flex-wrap: wrap; */
     flex-direction: column;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border:1px solid green;
 }
 
 
@@ -983,36 +1097,84 @@ font-size: 20px;
 .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .thirdSliderImage .firstSectionOfSliderImage3{
     width:100%;
     height:15%; 
-     background: rgb(65, 145, 161);
+     background:#0F203A ;
+    
+     font-size: 30px;
+     color:white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight: bolder;
+     flex-wrap: wrap;
     
     }
     
     .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .thirdSliderImage .secondSectionOfSliderImage3{
         width:100%;
-        height:70%;
-        background: rgb(154, 154, 155);   
+        height:60%;
+        /* background: #0F203A;  */
+        
+    font-size: 20px;
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     padding-top:10%;
+     flex-direction: column;
+     /* text-align: center; */
+     overflow:hidden;
+     border:2px solid whitesmoke;
+     flex-wrap: wrap;
     }
     
     .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .thirdSliderImage .thirdSectionOfSliderImage3{
         width:100%;
         height:15%;
-        background: rgb(151, 47, 47);   
+        /* background: rgb(151, 47, 47);    */
+        display: flex;
+ justify-content: center;
+ align-items: center;
     }
 
     
 
+    .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .thirdSliderImage .thirdSectionOfSliderImage3 button{
+        width:80%;
+        
+        height:90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border:1px solid white;
+        border-radius:4px;
+        color:white;
+        background-color:#0F203A;
+        font-size:27px;
+    
+    }
 
+    .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .thirdSliderImage .thirdSectionOfSliderImage3 button:hover{
+        width:50%;
+        height:70%;
+        border:1px solid #0F203A;
+        color:#0F203A;
+        background-color:#EFEFEF;
+        font-size:23px;
+        transition:1s;
+    }
+    
 
 
 .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .forthSliderImage{
-    width:600px;
+    width:570px;
     height:100%;
     /* margin:0 auto; */
-    background-color:rgb(80, 9, 59);
+    /* background-color:rgb(80, 9, 59); */
     display:flex;
     /* flex-wrap: wrap; */
     flex-direction: column;
-    
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border:1px solid green;
 
 }
 
@@ -1020,25 +1182,70 @@ font-size: 20px;
 .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .forthSliderImage .firstSectionOfSliderImage4{
     width:100%;
     height:15%; 
-     background: rgb(219, 172, 160);
+     background:#0F203A ;
+    
+     font-size: 30px;
+     color:white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight: bolder;
+     flex-wrap: wrap;
     
     }
     
     .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .forthSliderImage .secondSectionOfSliderImage4{
         width:100%;
-        height:70%;
-        background: rgb(144, 151, 47);   
+        height:60%;
+        /* background: #0F203A;  */
+        
+    font-size: 20px;
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     padding-top:10%;
+     flex-direction: column;
+     /* text-align: center; */
+     overflow:hidden;
+     border:2px solid whitesmoke;
+     flex-wrap: wrap; 
     }
     
     .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .forthSliderImage .thirdSectionOfSliderImage4{
         width:100%;
         height:15%;
-        background: rgb(32, 16, 32);   
+        /* background: rgb(32, 16, 32);    */
+        display: flex;
+ justify-content: center;
+ align-items: center;
     }
 
     
-
-
+    .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .forthSliderImage .thirdSectionOfSliderImage4 button{
+        width:80%;
+        
+        height:90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border:1px solid white;
+        border-radius:4px;
+        color:white;
+        background-color:#0F203A;
+        font-size:27px;
+    
+    }
+    
+    .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .forthSliderImage .thirdSectionOfSliderImage4 button:hover{
+        width:50%;
+        height:70%;
+        border:1px solid #0F203A;
+        color:#0F203A;
+        background-color:#EFEFEF;
+        font-size:23px;
+        transition:1s;
+    
+    }
 
 
 .container .Middle .MiddleSectionContainer .fifthSectionOfMiddleSection{
@@ -1642,3 +1849,221 @@ align-items: center;
     align-items: center;
     flex-wrap: wrap;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+    .container .Header .RightSection .topHeader .topHeaderContainer .topHeaderContainerIcons i {
+        font-size: 25px;
+        display: none;
+        color: black;
+        transition: 2s;
+        font-weight: 200;
+    }
+
+    .container .Header .RightSection .bottomHeader .middleSectionOfBottomHeader {
+        width: 60%;
+        height: inherit;
+        display: none;
+        /* display: flex; */
+        justify-content: space-around;
+        align-content: center;
+        flex-grow: inherit;
+        /* background-color: yellow; */
+    }
+
+    .container .Header .LeftSection {
+        width: 30%;
+        height: 95%;
+        display: flex;
+        /* background-color: blue; */
+        border: 2px solid rgb(206, 24, 24);
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+    }
+
+    .container .Header .LeftSection .logoSectionForLeftSection .upperSectionOfTheLogoSection {
+        width: 19%;
+        height: 7vh;
+        text-align: center;
+        /* background: #15116D; */
+        font-size: 18px;
+        padding: 0px;
+        position: absolute;
+        margin-top: 3vh;
+        color: white;
+    }
+
+    .container .Header .LeftSection .logoSectionForLeftSection .middleSectionOfTheLogoSection {
+        width: 100%;
+        height: 42%;
+        margin-top: 5.5vh;
+        /* background: rgb(81, 109, 17); */
+        font-size: 18px;
+        padding: 0px;
+        position: relative;
+        color: white;
+    }
+
+    .container .Header .RightSection .topHeader .topHeaderContainer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        font-size: 12px;
+    }
+
+    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .containerForFirstSectionOfMiddleSection .InputForFirstSectionOfMiddleSection .firstTextForInputForFirstSectionOfMiddleSection {
+        width: 100%;
+        height: 30%;
+        /* background-color: aquamarine; */
+        font-size: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        line-height: 100%;
+        font-family: 'Playfair Display SC', serif;
+        color: #0F203A;
+    }
+
+    .firstSectionOfMiddleSection .containerForFirstSectionOfMiddleSection .InputForFirstSectionOfMiddleSection .signUpSectionForInputForFirstSectionOfMiddleSection input {
+        width: 30vh;
+        height: 30%;
+        font-size: 14px;
+        background-color: antiquewhite;
+        border: 2px solid transparent;
+        border-radius: 2px;
+        margin: auto;
+    }
+    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .containerForFirstSectionOfMiddleSection .InputForFirstSectionOfMiddleSection .signUpSectionForInputForFirstSectionOfMiddleSection {
+        width: 100%;
+        height: 40%;
+        /* background-image: linear-gradient(rgb(4, 10, 48), rgba(161, 159, 159, 0.994)); */
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid transparent;
+        border-radius: 2px;
+        font-family: 'Playfair Display SC', serif;
+        /* border: 2px solid #15116D; */
+        color: whitesmoke;
+    }
+    .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .timerForSecondSectionOfMiddleSection .containerForTimer #demo{
+        font-size: 20px;
+    }
+
+
+
+.container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .secondForSecondSectionOfMiddleSection .headerSectionForSecondForSecondSectionOfMiddleSection {
+    width: 20%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    font-size: 44px;
+    display: none;
+    background-color: #0F203A;
+    /* border: 1px solid red; */
+    align-items: center;
+    word-spacing: 20%;
+    color: #0F203A;
+}
+
+    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .containerForFirstSectionOfMiddleSection .InputForFirstSectionOfMiddleSection .signUpSectionForInputForFirstSectionOfMiddleSection button {
+        width: 40%;
+        height: 29;
+        font-size: 15px;
+        background-color: #0F203A;
+        border: 2px solid transparent;
+        border-radius: 3px;
+        color: white;
+        margin-left: 30%;
+    }
+
+    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .containerForFirstSectionOfMiddleSection .InputForFirstSectionOfMiddleSection .secondTextForInputForFirstSectionOfMiddleSection {
+        width: 87%;
+        height: 20%;
+        /* background-color: rgb(240, 127, 255); */
+        font-size: 11px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-around;
+        align-items: center;
+        color: whitesmoke;
+    }
+    
+
+    .container .Header .LeftSection .logoSectionForLeftSection .bottomSectionOfTheLogoSection {
+        width: 25%;
+        height: 5vh;
+        text-align: end;
+        /* background: rgb(109, 17, 86); */
+        font-size: 10px;
+        padding: 0px;
+        position: absolute;
+        margin-top: 8.5vh;
+        color: white;
+    }
+
+
+.container .Header .LeftSection {
+    width: 30%;
+    height: 65%;
+    margin-left: 3%;
+    display: flex;
+    /* background-color: blue; */
+    border: 2px solid rgb(206, 24, 24);
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+.container .Header .RightSection .topHeader .topHeaderContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 12px;
+}
+
+.container .Header .RightSection .bottomHeader {
+    height: -webkit-fill-available;
+    width: 100%;
+    display: none;
+    /* display: flex; */
+    justify-content: space-around;
+    /* background-color: green; */
+    /* position: sticky; */
+    /* top: 0px; */
+}
+
+.container .Header .RightSection .bottomHeader {
+    height: 40%;
+    width: 100%;
+    display: none;
+    /* display: flex; */
+    justify-content: space-around;
+    /* background-color: green; */
+    /* position: sticky; */
+    /* top: 0px; */
+}
+  }

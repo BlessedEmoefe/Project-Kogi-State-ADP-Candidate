@@ -17,7 +17,7 @@
     flex-direction: column;
     justify-items: inherit;
     width:100%;
-    height:208vh;
+    height:408vh;
     background-image:linear-gradient(to top,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("./back1.jpg");
     background-repeat: no-repeat;
     /* background-blend-mode: screen; */
@@ -192,7 +192,7 @@ height:inherit;
 }
 
 .container .Header .RightSection .bottomHeader .middleSectionOfBottomHeader{
-    width:60%;
+    width:75%;
     height:inherit;
     display:flex;
     justify-content: space-around;
@@ -321,7 +321,7 @@ align-self: center;
 
 
 .container .Middle{
-    height:140vh;
+    height:340vh;
     width:100%;
     display:flex;
     flex-direction: column;
@@ -333,7 +333,9 @@ align-self: center;
     height:100%;
     display:flex;
     flex-direction: column;
-
+    /* opacity:0.8; */
+    background-color: #EFF7FF;
+    color:#0F203A;
 
 }
 
@@ -343,60 +345,330 @@ align-self: center;
     background-color: #EFF7FF;
     display:flex;
     flex-direction: column;
+    /* background-color: #15116D; */
+
     }
     
     .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .HeaderForFirstSectionOfMiddleSection{
     width:100%;
-    height:16%;
+    height:7%;
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(0, 13, 128);
+    color:#0F203A;
+    background-color: #d9d9d9;
     font-size:40px;
     align-items:center;
     }
     
     .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection{
         width:100%;
-        height:84%;
+        height:93%;
         display:flex;
+        flex-direction: column;
         justify-content: center;
         flex-wrap: wrap;
         background-color: rgb(0, 92, 128);
 
 
-    background-image:linear-gradient(to top,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url("./back1.jpg");
-    background-repeat: no-repeat;
-    background-blend-mode: screen;
-    background-size: cover;
+        background:linear-gradient(280deg ,#EFF7FF,#0F203A)
+  
         } 
-    
-    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .formForSecondSectionForFirstSectionOfMiddleSection{
+
+ .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection{
+     width:100%;
+     height:65%;
+     background:grey;
+     display:flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-direction: column;
+     flex-wrap: wrap;
+
+ }
+
+ .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box1{
+  width:45%;
+  height:45%;
+  background-color:#d9d9d9;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius:5px;
+
+}
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box1 .firstSectionOfBox1{
     width:100%;
-    height:100%;
-    border:1px solid red;
+    height:20%;
+    /* background-color: #15116D; */;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#0F203A;
+    font-size: 60px;
+    
+}
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box1 .secondSectionOfBox1{
+    width:95%;
+    color:#EFEFEF;
+    font-size: 23px;
+    margin:0 auto;
+    height:60%;
+    border:2px;
+    background-color: #0F203A;
+}
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box1 .thirdSectionOfBox1{
+    width:100%;
+    height:20%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box1 .thirdSectionOfBox1 button{
+    width:40%;
+    border:1px solid rgb(26, 25, 61);
+    border-radius:3px;
+    height:70%;
+    font-size:21.5px;
+    margin: 0 auto;
+    background-color: #0F203A;
+    color:#EFEFEF;
+    text-align: center;
+
+}
+
+
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box1 .thirdSectionOfBox1 button:hover{
+    background: #EFEFEF;
+    color:#0F203A;
+    width:35%;
+    height:67%;
+    border:1px solid #0F203A;
+    transition:1.4s;
+}
+
+
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box2{
+   width:45%;
+  height:45%;
+  background-color:#d9d9d9;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius:5px;
+}
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box2 .firstSectionOfBox2{
+    width:100%;
+    height:20%;
+    /* background-color: #15116D; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box2 .secondSectionOfBox2{
+    width:95%;
+    margin:0 auto;
+    height:60%;
+    color:#EFEFEF;
+    font-size: 23px;
+    border:2px;
+    background-color: #0F203A;
+}
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box2 .thirdSectionOfBox2{
+    width:100%;
+    height:20%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box2 .thirdSectionOfBox2 button{
+    width:40%;
+    border:1px solid rgb(26, 25, 61);
+    border-radius:3px;
+    height:70%;
+    margin: 0 auto;
+    background-color: #0F203A;
+    color:#EFEFEF;
+    font-size:21.5px;
+    text-align: center;
+
+}
+
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box2 .thirdSectionOfBox2 button:hover{
+    background: #EFEFEF;
+    color:#0F203A;
+    width:35%;
+    height:67%;
+    border:1px solid #0F203A;
+    transition:1.4s;
+}
+
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box3{
+    width:45%;
+    height:45%;
+    background-color:#d9d9d9;
+    text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius:5px;
+}
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box3 .firstSectionOfBox3{
+    width:100%;
+    height:20%;
+    /* background-color: #15116D; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box3 .secondSectionOfBox3{
+    width:95%;
+    margin:0 auto;
+    height:60%;
+    color:#EFEFEF;
+    font-size: 23px;
+    border:2px;
+    background-color: #0F203A;
+}
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box3 .thirdSectionOfBox3{
+    width:100%;
+    height:20%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box3 .thirdSectionOfBox3 button{
+    width:40%;
+    border:1px solid rgb(26, 25, 61);
+    border-radius:3px;
+    height:70%;
+    font-size:21.5px;
+    margin: 0 auto;
+    background-color: #0F203A;
+    color:#EFEFEF;
+    text-align: center;
+}
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box3 .thirdSectionOfBox3 button:hover{
+    background: #EFEFEF;
+    color:#0F203A;
+    width:35%;
+    height:67%;
+    border:1px solid #0F203A;
+    transition:1.4s;
+}
+
+
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box4{
+    width:45%;
+  height:45%;
+  background-color:#d9d9d9;
+  border-radius:5px;
+}
+    
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box4 .firstSectionOfBox4{
+    width:100%;
+    height:20%;
+    /* background-color: #15116D; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box4 .secondSectionOfBox4{
+    width:95%;
+    margin:0 auto;
+    height:60%;
+    border:2px;
+    color:#EFEFEF;
+    font-size: 23px;
+    background-color: #0F203A;
+}
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box4 .thirdSectionOfBox4{
+    width:100%;
+    height:20%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box4 .thirdSectionOfBox4 button{
+    width:40%;
+    border:1px solid rgb(26, 25, 61);
+    border-radius:3px;
+    height:70%;
+    margin: 0 auto;
+    background-color: #0F203A;
+    font-size:21.5px;
+    color:#EFEFEF;
+    text-align: center;
+
+}
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box4 .thirdSectionOfBox4 button:hover{
+    background: #EFEFEF;
+    color:#0F203A;
+    width:35%;
+    height:67%;
+    border:1px solid #0F203A;
+    transition:1.4s;
+}
+
+
+    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .formForSecondSectionForFirstSectionOfMiddleSection{
+    width:45%;
+    height:35%;
+    /* border:1px solid red; */
     display:flex;
-    justify-content: flex-start;
+    justify-content:center;
+    align-self: center;
     }
     
     .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .formForSecondSectionForFirstSectionOfMiddleSection form{
-        width:45%;
+        width:100%;
         height:95%;
         /* background-color: rgb(106, 107, 107); */
-        
+        background-color: #EFEFEF;
+        color:#0F203A;
         margin-top:2%;
         margin-left: 8%;
         border-radius:24px;
-        border:2px solid #15116D;
+        border:2px solid #EFF7FF;
     }
 
     .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .formForSecondSectionForFirstSectionOfMiddleSection form .firstSectionOfTheForm{
         width:100%;
         height:18%;
-        /* background-color: #15116D; */
+        background-color: #0F203A;
         border-top-right-radius: 22px;
         border-top-left-radius: 22px;
-        border-bottom: 3px solid #15116D;
+        border-bottom: 3px solid #0F203A;
+        color:#EFEFEF;
         display:flex;
         flex-direction: column;
     }
@@ -457,14 +729,27 @@ align-self: center;
     .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .formForSecondSectionForFirstSectionOfMiddleSection form .secondSectionOfTheForm button{
         width:100%;
         height:10%;
-        border:1px solid transparent;
-        background-color: #15116D;
+        border:1px solid #EFEFEF;
+        background-color:#0F203A;
         border-radius:5px;
-        color:white;
+        color:#EFEFEF;
         margin-top:5%;
         font-size: 25px;
     }
 
+    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .formForSecondSectionForFirstSectionOfMiddleSection form .secondSectionOfTheForm button:hover{
+        color:#0F203A;
+        transition:2s;
+        background:#EFEFEF;
+        border:1px solid #0F203A;
+        font-size: 28px;
+        width:80%;
+        height:12%;
+        /* width: 80%; */
+        margin:0 auto;
+        opacity: 0.9;
+        margin-top: 3%;
+    }
 
 
 .container .Footer{

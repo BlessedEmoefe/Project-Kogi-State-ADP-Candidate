@@ -21,7 +21,7 @@ const mainSlide=() => {
 
 	var slideShow = () => {
 	if(new Date().getSeconds()%9 && count<3){
-		slideContainer.style.marginLeft = `-${600*count}px`
+		slideContainer.style.transform = `translateX(-${600*count}px)`
 		count++;
 		if(count==3){
 			count=0
@@ -33,7 +33,15 @@ const mainSlide=() => {
 		
 	};
 	
-	setInterval(slideShow,2000)
+	setInterval(slideShow,3000)
 }
 // slideShow()
-// mainSlide()
+mainSlide()
+
+
+const bioButton = document.querySelector(".bioButton");
+function blessed(){
+const bio = document.querySelector(".bio");
+		bio.style.overflow = "scroll"
+}
+bioButton.addEventListener("click", blessed)

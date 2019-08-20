@@ -17,7 +17,7 @@
     flex-direction: column;
     justify-items: inherit;
     width:100%;
-    height:318vh;
+    height:418vh;
     background-image:linear-gradient(to top,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("./back1.jpg");
     background-repeat: no-repeat;
     /* background-blend-mode: screen; */
@@ -192,7 +192,7 @@ height:inherit;
 }
 
 .container .Header .RightSection .bottomHeader .middleSectionOfBottomHeader{
-    width:60%;
+    width:75%;
     height:inherit;
     display:flex;
     justify-content: space-around;
@@ -315,7 +315,7 @@ align-self: center;
 }
 
 .container .Middle{
-    height:250vh;
+    height:350vh;
     width:100%;
     display:flex;
     flex-direction: column;
@@ -338,7 +338,7 @@ align-self: center;
 
 .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection{
     width:100%;
-    height:56%;
+    height:80%;
     background-color: #EFF7FF;
     display:flex;
     flex-direction: column;
@@ -346,28 +346,40 @@ align-self: center;
     
     .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .HeaderForFirstSectionOfMiddleSection{
     width:100%;
-    height:20%;
+    height:8%;
     display:flex;
+    color:#0F203A;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(0, 13, 128);
+    background-color: #d9d9d9;
     font-size:40px;
     align-items:center;
     }
     
     .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection{
-        width:100%;
-        height:70%;
+        width:90%;
+        height:20%;
         display:flex;
-        justify-content: center;
+        justify-content: space-around;
         flex-wrap: wrap;
-        background-color: rgb(0, 92, 128);
+        /* background-color: rgb(0, 92, 128); */
+        flex-direction: column;
+        /* margin-bottom:2%; */
+        margin:1% auto 1% auto
+
         } 
+
+        .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection:hover{
+            width:95%;
+            height:24%;
+           transition:1s;
+    
+            } 
     
     .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .formForSecondSectionForFirstSectionOfMiddleSection{
     width:40%;
     height:100%;
-    border:1px solid red;
+    border:1px solid #0F203A;
     display:flex;
     justify-content: space-around
     }
@@ -375,27 +387,64 @@ align-self: center;
     .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .imageForSecondSectionForFirstSectionOfMiddleSection{
         width:60%;
         height:100%;
-        border:1px solid red;
+        border:1px solid #0F203A;
         display:flex;
         justify-content: space-around;
-        background-image: url("./back1.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        /* background-attachment: fixed; */
+        background:white;
+        flex-direction: column;
     
-        }
+     
+    
+    }
 
+        
+    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .imageForSecondSectionForFirstSectionOfMiddleSection  .header{
+        height: 25%;
+        border:1px solid transparent;
+        margin-top: 0px;
+        background: #0F203A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 40px;
+        color:#EFF7FF;
+        
+    }
 
-.container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection{
+    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .imageForSecondSectionForFirstSectionOfMiddleSection  .body{
+        height: 75%;
+        padding-top:10%;
+        width:90%;
+        margin:0 auto;
+        border:1px solid transparent;
+        margin-top: 0px;
+        background: #EFF7FF;
+        color:#0F203A;
+        overflow:scroll;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+       
+        font-size:20px;
+
+    }
+
+    
+
+/* .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection{
     width:100%;
 height:30%;
 background-color: rgb(154, 168, 43)
-}
+} */
 
 .container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection{
     width:100%;
-height:30%;
+height:20%;
 background-color: red
+
 }
 
 
