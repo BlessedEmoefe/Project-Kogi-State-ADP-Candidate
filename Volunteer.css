@@ -406,7 +406,7 @@ align-self: center;
     justify-content: center;
     align-items: center;
     color:#0F203A;
-    font-size: 60px;
+    font-size: 40px;
     
 }
 
@@ -414,6 +414,7 @@ align-self: center;
     width:95%;
     color:#EFEFEF;
     font-size: 23px;
+    overflow: scroll;
     margin:0 auto;
     height:60%;
     border:2px;
@@ -473,7 +474,7 @@ align-self: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box2 .secondSectionOfBox2{
@@ -481,6 +482,7 @@ align-self: center;
     margin:0 auto;
     height:60%;
     color:#EFEFEF;
+    /* overflow: scroll; */
     font-size: 23px;
     border:2px;
     background-color: #0F203A;
@@ -503,7 +505,7 @@ align-self: center;
     margin: 0 auto;
     background-color: #0F203A;
     color:#EFEFEF;
-    font-size:21.5px;
+    font-size:21px;
     text-align: center;
 
 }
@@ -536,7 +538,7 @@ align-self: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box3 .secondSectionOfBox3{
@@ -544,6 +546,7 @@ align-self: center;
     margin:0 auto;
     height:60%;
     color:#EFEFEF;
+    overflow: scroll;
     font-size: 23px;
     border:2px;
     background-color: #0F203A;
@@ -589,13 +592,15 @@ align-self: center;
 }
     
 .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box4 .firstSectionOfBox4{
-    width:100%;
+    width:90%;
+    margin:0 auto;
     height:20%;
     /* background-color: #15116D; */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 60px;
+    font-size: 40px;
+    text-align: cente9
 }
 
 .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .writeupSection .box4 .secondSectionOfBox4{
@@ -603,8 +608,10 @@ align-self: center;
     margin:0 auto;
     height:60%;
     border:2px;
+    text-align: center;
     color:#EFEFEF;
     font-size: 23px;
+    overflow: scroll;
     background-color: #0F203A;
 }
 
@@ -807,19 +814,19 @@ word-spacing: 6px;
 
 .container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .secondSectionOfleftSectionForFirstSectionOfFooter{
     width:100%;
-    height:13%;
+    height:20%;
     /* background-color: rgb(26, 119, 138);   */
     font-family:'Volkhov', serif;
 }
 .container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .thirdSectionOfleftSectionForFirstSectionOfFooter{
     width:100%;
-height:13.5%;
+height:20%;
 /* background-color: rgb(160, 169, 219); */
 font-family:  serif;
 }
 .container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .forthSectionOfleftSectionForFirstSectionOfFooter{
     width:100%;
-height:13.5%;
+/* height:13.5%; */
 /* background-color: rgb(219, 160, 211); */
 /* font-family: 'Volkhov', serif; */
 font-family: 'Philosopher', sans-serif;

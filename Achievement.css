@@ -944,39 +944,26 @@ margin-bottom:1%;
   word-spacing: 6px;
 }
 
-.container
-  .Footer
-  .footerContainer
-  .firstSectionOfFooter
-  .leftSectionForFirstSectionOfFooter
-  .secondSectionOfleftSectionForFirstSectionOfFooter {
-  width: 100%;
-  height: 13%;
+
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .secondSectionOfleftSectionForFirstSectionOfFooter{
+  width:100%;
+  height:20%;
   /* background-color: rgb(26, 119, 138);   */
-  font-family: "Volkhov", serif;
+  font-family:'Volkhov', serif;
 }
-.container
-  .Footer
-  .footerContainer
-  .firstSectionOfFooter
-  .leftSectionForFirstSectionOfFooter
-  .thirdSectionOfleftSectionForFirstSectionOfFooter {
-  width: 100%;
-  height: 13.5%;
-  /* background-color: rgb(160, 169, 219); */
-  font-family: serif;
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .thirdSectionOfleftSectionForFirstSectionOfFooter{
+  width:100%;
+height:20%;
+/* background-color: rgb(160, 169, 219); */
+font-family:  serif;
 }
-.container
-  .Footer
-  .footerContainer
-  .firstSectionOfFooter
-  .leftSectionForFirstSectionOfFooter
-  .forthSectionOfleftSectionForFirstSectionOfFooter {
-  width: 100%;
-  height: 13.5%;
-  /* background-color: rgb(219, 160, 211); */
-  /* font-family: 'Volkhov', serif; */
-  font-family: "Philosopher", sans-serif;
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .forthSectionOfleftSectionForFirstSectionOfFooter{
+  width:100%;
+/* height:13.5%; */
+/* background-color: rgb(219, 160, 211); */
+/* font-family: 'Volkhov', serif; */
+font-family: 'Philosopher', sans-serif;
+
 }
 .container
   .Footer
