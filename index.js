@@ -33,7 +33,7 @@ const mainSlide=() => {
 		
 	};
 	
-	setInterval(slideShow,3000)
+	setInterval(slideShow,10000)
 }
 // slideShow()
 mainSlide()
@@ -95,16 +95,10 @@ button5.addEventListener("click",emoefe4)
 
 
 
-// const bioButton = document.querySelector(".bioButton");
-// const Button = document.querySelector(".Button")
-// function emoefe(){
-// 	const read = document.querySelector(".read")
-// 	read.style.overflow = "scroll"
-// }
+const bioButton = document.querySelector(".bioButton");
+const bio = document.querySelector(".bio");
 
 function blessed(){
-const bio = document.querySelector(".bio");
 		bio.style.overflow = "scroll";
-
 }
-bioButton.addEventListener("click", blessed)
+bioButton.addEventListener("click",blessed)
