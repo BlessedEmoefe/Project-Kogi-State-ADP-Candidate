@@ -75,16 +75,17 @@ padding: 0px;
 position: relative;
 color:white;
 }
-.container .Header .LeftSection .logoSectionForLeftSection .bottomSectionOfTheLogoSection{
-    width:19%;
-    height:5vh;
+.container .Header .LeftSection .logoSectionForLeftSection .bottomSectionOfTheLogoSection {
+    width: 15%;
+    height: 5vh;
     text-align: end;
-    /* background: rgb(109, 17, 86);  */
+    /* background: rgb(109, 17, 86); */
     font-size: 20px;
     padding: 0px;
     position: absolute;
-    margin-top:12vh;
-    color:white;
+    margin-top: 11.5vh;
+    color: white;
+    margin-left: 4%;
 }
 
 .container .Header .RightSection{
@@ -101,7 +102,8 @@ color:white;
     height:7vh;
     width:100%;
     display:flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     background:linear-gradient(280deg ,#EFF7FF,#0F203A)
     
 }
@@ -111,7 +113,16 @@ color:white;
     color:white;
     transition:3s;
 }
- 
+ .sidemenu{
+     display: flex;
+     flex-direction: column;
+     width:70%;
+     height:90%;
+     background-color: aqua;
+     display: none;
+
+     justify-content: space-between;
+ }
 
 .container .Header .RightSection .topHeader .topHeaderContainer{
 width:100%;
@@ -809,7 +820,7 @@ float:left
     }
     .button-container{
      /* background-color: rgb(4, 0, 25 ); */
-    top:-70px;
+    top:-130px;
     position: relative;
     width:25%;
     left:40%;
@@ -1875,6 +1886,14 @@ align-items: center;
 
 
 @media only screen and (max-width: 480px) {
+    .container .Header {
+        height: 11vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: #0F203A;
+        font-weight: bold;
+    }
     .container .Header .RightSection .topHeader .topHeaderContainer .topHeaderContainerIcons i {
         font-size: 25px;
         display: none;
@@ -1887,18 +1906,15 @@ align-items: center;
         width: 60%;
         height: inherit;
         display: none;
-        /* display: flex; */
         justify-content: space-around;
         align-content: center;
         flex-grow: inherit;
-        /* background-color: yellow; */
     }
 
     .container .Header .LeftSection {
         width: 30%;
         height: 95%;
         display: flex;
-        /* background-color: blue; */
         border: 2px solid rgb(206, 24, 24);
         border-top-right-radius: 50%;
         border-top-left-radius: 50%;
@@ -1908,25 +1924,43 @@ align-items: center;
         width: 19%;
         height: 7vh;
         text-align: center;
-        /* background: #15116D; */
-        font-size: 18px;
+        font-size: 12px;
         padding: 0px;
         position: absolute;
-        margin-top: 3vh;
+        margin-top: 0.5vh;
         color: white;
     }
 
     .container .Header .LeftSection .logoSectionForLeftSection .middleSectionOfTheLogoSection {
         width: 100%;
         height: 42%;
-        margin-top: 5.5vh;
-        /* background: rgb(81, 109, 17); */
-        font-size: 18px;
+        margin-top: 2vh;
+        font-size: 16px;
         padding: 0px;
         position: relative;
         color: white;
     }
+    .container .Header .LeftSection .logoSectionForLeftSection .bottomSectionOfTheLogoSection {
+        width: 25%;
+        height: 2vh;
+        text-align: end;
+        font-size: 10px;
+        padding: 0px;
+        position: absolute;
+        margin-top: 4.5vh;
+        color: white;
+    }
 
+    .container .Header .LeftSection .logoSectionForLeftSection .bottomSectionOfTheLogoSection {
+        width: 25%;
+        /* height: 1vh; */
+        text-align: end;
+        font-size: 10px;
+        padding: 0px;
+        position: absolute;
+        margin-top: 4.5vh;
+        color: white;
+    }
     .container .Header .RightSection .topHeader .topHeaderContainer {
         width: 100%;
         height: 100%;
@@ -1936,10 +1970,32 @@ align-items: center;
         font-size: 12px;
     }
 
+    .Middle .MiddleSectionContainer .firstSectionOfMiddleSection {
+        max-width: 100%;
+        height: 11%;
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+    }
+
+    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .containerForFirstSectionOfMiddleSection .InputForFirstSectionOfMiddleSection {
+        width: 70%;
+        height: 50%;
+        top: 30vh;
+        left: 1%;
+        border-top-right-radius: 20%;
+        border-bottom-left-radius: 25%;
+        border: 1px solid rgba(0, 0, 0, 0.404);
+        background-color: rgba(228, 222, 222, 0.294);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        font-weight: bolder;
+    }
+
     .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .containerForFirstSectionOfMiddleSection .InputForFirstSectionOfMiddleSection .firstTextForInputForFirstSectionOfMiddleSection {
         width: 100%;
         height: 30%;
-        /* background-color: aquamarine; */
         font-size: 30px;
         display: flex;
         justify-content: space-around;
@@ -1961,14 +2017,12 @@ align-items: center;
     .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .containerForFirstSectionOfMiddleSection .InputForFirstSectionOfMiddleSection .signUpSectionForInputForFirstSectionOfMiddleSection {
         width: 100%;
         height: 40%;
-        /* background-image: linear-gradient(rgb(4, 10, 48), rgba(161, 159, 159, 0.994)); */
         margin: 0 auto;
         display: flex;
         flex-direction: column;
         border: 2px solid transparent;
         border-radius: 2px;
         font-family: 'Playfair Display SC', serif;
-        /* border: 2px solid #15116D; */
         color: whitesmoke;
     }
     .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .timerForSecondSectionOfMiddleSection .containerForTimer #demo{
@@ -1987,7 +2041,6 @@ align-items: center;
     font-size: 44px;
     display: none;
     background-color: #0F203A;
-    /* border: 1px solid red; */
     align-items: center;
     word-spacing: 20%;
     color: #0F203A;
@@ -2007,7 +2060,6 @@ align-items: center;
     .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .containerForFirstSectionOfMiddleSection .InputForFirstSectionOfMiddleSection .secondTextForInputForFirstSectionOfMiddleSection {
         width: 87%;
         height: 20%;
-        /* background-color: rgb(240, 127, 255); */
         font-size: 11px;
         display: flex;
         margin: 0 auto;
@@ -2021,7 +2073,6 @@ align-items: center;
         width: 25%;
         height: 5vh;
         text-align: end;
-        /* background: rgb(109, 17, 86); */
         font-size: 10px;
         padding: 0px;
         position: absolute;
@@ -2035,7 +2086,6 @@ align-items: center;
     height: 65%;
     margin-left: 3%;
     display: flex;
-    /* background-color: blue; */
     border: 2px solid rgb(206, 24, 24);
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
@@ -2051,25 +2101,17 @@ align-items: center;
 }
 
 .container .Header .RightSection .bottomHeader {
-    height: -webkit-fill-available;
     width: 100%;
     display: none;
-    /* display: flex; */
     justify-content: space-around;
-    /* background-color: green; */
-    /* position: sticky; */
-    /* top: 0px; */
 }
 
 .container .Header .RightSection .bottomHeader {
     height: 40%;
     width: 100%;
     display: none;
-    /* display: flex; */
     justify-content: space-around;
-    /* background-color: green; */
-    /* position: sticky; */
-    /* top: 0px; */
+  
 }
   }
 

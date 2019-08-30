@@ -17,7 +17,7 @@
     flex-direction: column;
     justify-items: inherit;
     width:100%;
-    height:368vh;
+    height:468vh;
     background:#EFF7FF;
     
     background-repeat: no-repeat;
@@ -322,7 +322,7 @@ align-self: center;
 
 
 .container .Middle{
-    height:300vh;
+    height:400vh;
     width:100%;
     display:flex;
     flex-direction: column;
@@ -346,7 +346,7 @@ align-self: center;
 
 .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection{
     width:100%;
-    height:72%;
+    height:82%;
     background-color: #EFF7FF;
     display:flex;
     flex-direction: column;
@@ -355,7 +355,7 @@ align-self: center;
     
     .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .HeaderForFirstSectionOfMiddleSection{
     width:100%;
-    height:12%;
+    height:9%;
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -379,7 +379,7 @@ align-self: center;
     
     .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .formForSecondSectionForFirstSectionOfMiddleSection{
     width:40%;
-    height:30%;
+    height:20%;
     /* border:1px solid #0F203A; */
     display:flex;
     justify-content: space-around;
@@ -392,7 +392,7 @@ align-self: center;
     
     .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .imageForSecondSectionForFirstSectionOfMiddleSection{
         width:60%;
-        height:30%;
+        height:20%;
         border:1px solid #0F203A;
         display:flex;
         justify-content: space-around;
@@ -428,6 +428,27 @@ border-top-right-radius: 9px;
     background: #EFF7FF;   
     
 }
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .gdiv{
+    height:30%;
+    width:50%;
+}
+
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .gdiv .top{
+    height:20%;
+    margin-top:-15px;
+    border-top-right-radius: 25px;
+}
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .imageForSecondSectionForFirstSectionOfMiddleSection .g{         
+    overflow:scroll;
+}
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .imageForSecondSectionForFirstSectionOfMiddleSection .g p{
+display: flex;
+align-content: flex-end;
+    /* margin-top:49px; */
+}
 /* 
 .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection{
     width:100%;
@@ -437,7 +458,7 @@ background-color: rgb(154, 168, 43)
 
 .container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection{
     width:100%;
-height:24%;
+height:18%;
 background-color: red
 }
 
