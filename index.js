@@ -21,7 +21,7 @@ const mainSlide=() => {
 
 	var slideShow = () => {
 	if(new Date().getSeconds()%9 && count<3){
-		slideContainer.style.transform = `translateX(-${600*count}px)`
+		slideContainer.style.transform = `translateX(-${325*count}px)`
 		count++;
 		if(count==3){
 			count=0

@@ -1880,241 +1880,1422 @@ align-items: center;
 
 
 
+@media(max-width: 320px) {
 
+    .container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space space-between;
+        width: 100%;
+        height: 568vh;
+        background: white;
+        background-repeat: no-repeat;
+        /* background-blend-mode: screen; */
+        background-size: cover;
+        font-family: 'Playfair Display SC', serif;
+    }
 
-
-
-
-@media only screen and (max-width: 480px) {
+    .sidemenu {
+        display: flex;
+        /* margin-left: ; */
+        flex-direction: column;
+        width: 60%;
+        height: 80%;
+        background-color: transparent;
+        margin-left:80%;
+        margin-top:10px;
+        display: inline-block;
+        justify-content: space-evenly;
+    }
+    
+    .one{
+        width:100%;
+        height:16%;
+        margin:2px auto 4px auto;
+        /* margin-bottom: 7%; */
+        background: white;
+        border-radius: 20px;
+    }
+    
+    .two{
+        width:100%;
+        height:16%;
+        margin:2px auto 4px auto;
+        /* margin-bottom: 7%; */
+        background: white;
+        border-radius: 20px;
+    }
+    
+    .three{
+        width:100%;
+        height:16%;
+        margin:4px auto 0 auto;
+        /* margin-bottom: 7%; */
+        background: white;
+        border-radius: 20px;
+    }
+    
     .container .Header {
-        height: 11vh;
+        height: 10vh;
         width: 100%;
         display: flex;
         flex-direction: row;
         background-color: #0F203A;
         font-weight: bold;
     }
-    .container .Header .RightSection .topHeader .topHeaderContainer .topHeaderContainerIcons i {
-        font-size: 25px;
-        display: none;
-        color: black;
-        transition: 2s;
-        font-weight: 200;
-    }
-
-    .container .Header .RightSection .bottomHeader .middleSectionOfBottomHeader {
-        width: 60%;
-        height: inherit;
-        display: none;
-        justify-content: space-around;
-        align-content: center;
-        flex-grow: inherit;
-    }
-
+    
     .container .Header .LeftSection {
         width: 30%;
         height: 95%;
         display: flex;
+        /* background-color: blue; */
         border: 2px solid rgb(206, 24, 24);
         border-top-right-radius: 50%;
         border-top-left-radius: 50%;
     }
-
+    
+    
+    
+    
+    .container .Header .RightSection {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        /* background-color: blueviolet; */
+    }
+    
+    
+    .container .Header .RightSection .topHeader {
+        height: 7vh;
+        width: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(280deg ,#EFF7FF,#0F203A);
+    }
+    
+    
+    .container .Header .RightSection .bottomHeader .middleSectionOfBottomHeader {
+        width: 75%;
+        height: inherit;
+        display: flex;
+        display: none;
+        justify-content: space-around;
+        align-content: center;
+        flex-grow: inherit;
+        /* background-color: yellow; */
+    }
+    
+    .container .Header .RightSection .bottomHeader .leftSectionOfBottomHeader {
+        width: 20%;
+        height: inherit;
+        /* background-color: brown; */
+        display: none;
+        align-items: center;
+    }
+    
     .container .Header .LeftSection .logoSectionForLeftSection .upperSectionOfTheLogoSection {
         width: 19%;
-        height: 7vh;
+        height: 2vh;
         text-align: center;
-        font-size: 12px;
+        /* background: #15116D; */
+        font-size: 14px;
+        margin-left: 10px;
         padding: 0px;
         position: absolute;
-        margin-top: 0.5vh;
+        margin-top: 2px;
         color: white;
     }
-
+    
     .container .Header .LeftSection .logoSectionForLeftSection .middleSectionOfTheLogoSection {
         width: 100%;
         height: 42%;
-        margin-top: 2vh;
-        font-size: 16px;
+        margin-top: 3vh;
+        /* background: rgb(81, 109, 17); */
+        font-size: 15px;
         padding: 0px;
         position: relative;
         color: white;
     }
+    
     .container .Header .LeftSection .logoSectionForLeftSection .bottomSectionOfTheLogoSection {
         width: 25%;
-        height: 2vh;
+        height: 5vh;
         text-align: end;
+        /* background: rgb(109, 17, 86); */
         font-size: 10px;
         padding: 0px;
         position: absolute;
-        margin-top: 4.5vh;
+        margin-top: 5.9vh;
         color: white;
+        margin-left: 8px;
     }
+    
 
-    .container .Header .LeftSection .logoSectionForLeftSection .bottomSectionOfTheLogoSection {
-        width: 25%;
-        /* height: 1vh; */
-        text-align: end;
-        font-size: 10px;
-        padding: 0px;
-        position: absolute;
-        margin-top: 4.5vh;
-        color: white;
-    }
-    .container .Header .RightSection .topHeader .topHeaderContainer {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        font-size: 12px;
-    }
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection {
+    max-width: 100%;
+    height: 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+      }
 
-    .Middle .MiddleSectionContainer .firstSectionOfMiddleSection {
-        max-width: 100%;
-        height: 11%;
-        background-size: cover;
-        background-repeat: no-repeat;
-       
-    }
-
-    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .containerForFirstSectionOfMiddleSection .InputForFirstSectionOfMiddleSection {
-        width: 70%;
+      .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .containerForFirstSectionOfMiddleSection .InputForFirstSectionOfMiddleSection {
+        width: 42%;
         height: 50%;
-        top: 30vh;
+        top: 48vh;
         left: 1%;
+        display: none;
         border-top-right-radius: 20%;
         border-bottom-left-radius: 25%;
         border: 1px solid rgba(0, 0, 0, 0.404);
         background-color: rgba(228, 222, 222, 0.294);
         position: relative;
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
         font-weight: bolder;
     }
 
-    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .containerForFirstSectionOfMiddleSection .InputForFirstSectionOfMiddleSection .firstTextForInputForFirstSectionOfMiddleSection {
-        width: 100%;
-        height: 30%;
-        font-size: 30px;
+
+    
+
+    .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .timerForSecondSectionOfMiddleSection {
+        width: 90%;
+        margin: 2% auto 0 auto;
+        height: 10%;
+        background-color: #d9d9d9;
         display: flex;
-        justify-content: space-around;
-        align-items: flex-end;
-        line-height: 100%;
-        font-family: 'Playfair Display SC', serif;
-        color: #0F203A;
+        justify-content: center;
+        /* position: sticky; */
+        align-items: center;
+        /* top: 0px; */
+        /* right: 0px; */
+        /* left: 0px; */
+        /* z-index: 999; */
+        position: -webkit-sticky;
     }
 
-    .firstSectionOfMiddleSection .containerForFirstSectionOfMiddleSection .InputForFirstSectionOfMiddleSection .signUpSectionForInputForFirstSectionOfMiddleSection input {
-        width: 30vh;
-        height: 30%;
-        font-size: 14px;
-        background-color: antiquewhite;
-        border: 2px solid transparent;
-        border-radius: 2px;
-        margin: auto;
+
+    .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .timerForSecondSectionOfMiddleSection .containerForTimer {
+        width: 90%;
+        display: flex;
+        font-size: 12px;
+        height: 100%;
+        color: #0F203A;
+        word-spacing: 20%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
-    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .containerForFirstSectionOfMiddleSection .InputForFirstSectionOfMiddleSection .signUpSectionForInputForFirstSectionOfMiddleSection {
+
+    .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .timerForSecondSectionOfMiddleSection .containerForTimer #demo {
         width: 100%;
-        height: 40%;
-        margin: 0 auto;
+        height: 60%;
+        word-spacing: 10%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        display: flex;
+        word-spacing: 20%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    
+    .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection {
+        width: 100%;
+        height: 47%;
+        background-color: white;
         display: flex;
         flex-direction: column;
-        border: 2px solid transparent;
-        border-radius: 2px;
-        font-family: 'Playfair Display SC', serif;
-        color: whitesmoke;
     }
-    .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .timerForSecondSectionOfMiddleSection .containerForTimer #demo{
-        font-size: 20px;
+    .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .secondForSecondSectionOfMiddleSection {
+        width: 90%;
+        height: 50%;
+        background-color: #EFEFEF;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2% auto 0 auto;
     }
-
-
 
 .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .secondForSecondSectionOfMiddleSection .headerSectionForSecondForSecondSectionOfMiddleSection {
-    width: 20%;
-    height: 40%;
+    width: 90%;
+    height: 20%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-left: 5%;
-    font-size: 44px;
-    display: none;
+    font-size: 20px;
     background-color: #0F203A;
+    /* border: 1px solid red; */
     align-items: center;
     word-spacing: 20%;
     color: #0F203A;
 }
+.greed{
+    display: none;
+}
 
-    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .containerForFirstSectionOfMiddleSection .InputForFirstSectionOfMiddleSection .signUpSectionForInputForFirstSectionOfMiddleSection button {
-        width: 40%;
-        height: 29;
-        font-size: 15px;
-        background-color: #0F203A;
-        border: 2px solid transparent;
-        border-radius: 3px;
-        color: white;
-        margin-left: 30%;
+.container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .secondForSecondSectionOfMiddleSection .textSectionForSecondForSecondSectionOfMiddleSection {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    font-size: 12px;
+    /* background-color: aquamarine; */
+    color: #0F203A;
+}
+
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection {
+    width: 90%;
+    height: 39.5%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(4, 0, 255); */
+    display: flex;
+    border-radius: 10px;
+}
+
+.container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .thirdForSecondSectionOfMiddleSection .textSectionForThirdForSecondSectionOfMiddleSection {
+    width: 90%;
+    height: 40%;
+    /* background-color: rgb(109, 103, 17); */
+    margin: 0 auto;
+    font-size: 11px;
+}
+
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .secondSectionInContainerForThirdSectionOfMiddleSection {
+    width: 100%;
+    height: 10%;
+    display: none;
+    /* background-color: rgb(43, 255, 0); */
+}
+
+.Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection {
+    width: 100%;
+    height: 90%;
+    /* background-color: rgb(4, 0, 255); */
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection .leftSectionInContainerForThirdSectionOfMiddleSection {
+    width: 100%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 0%;
+    border: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection .rightSectionInContainerForThirdSectionOfMiddleSection {
+    width: 100%;
+    height: 50%;
+    background: #EFEFEF;
+    border-top-right-radius: 0%;
+}
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection .rightSectionInContainerForThirdSectionOfMiddleSection .containerForTextInRightSectionInContainerForThirdSectionOfMiddleSection .container1 {
+    font-size: 20px;
+    color: #0F203A;
+    font-weight: bolder;
+    width: 90%;
+    margin: 0 auto;
+    height: 10%;
+    /* background-color: red; */
+    /* bottom: 4%; */
+}
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection .rightSectionInContainerForThirdSectionOfMiddleSection .containerForTextInRightSectionInContainerForThirdSectionOfMiddleSection .container2 {
+    font-size: 16px;
+    color: #0F203A;
+    word-spacing: 10%;
+    overflow: hidden;
+    text-transform: capitalize;
+    height: 68%;
+    font-family: 'Philosopher', sans-serif;
+}
+
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection .rightSectionInContainerForThirdSectionOfMiddleSection .containerForTextInRightSectionInContainerForThirdSectionOfMiddleSection .container3 button {
+    font-size: 25px;
+    color: rgb(243, 237, 237);
+    word-spacing: 10%;
+    text-transform: capitalize;
+    width: 50%;
+    background-color: #0F203A;
+    margin-top: 2%;
+    height: 70%;
+    top: 20%;
+    border: 1px solid #EFEFEF;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .headerContainer {
+    width: 100%;
+    height: 15%;
+    background-color: #d9d9d9;
+    color: #0F203A;
+    font-size: 20px;
+    font-weight: bolder;
+    justify-content: center;
+    display: flex;
+    flex-shrink: inherit;
+}
+
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer {
+    width: 1080px;
+    height: 85%;
+    /* margin: 0 auto; */
+    /* background-color: rgb(248, 242, 242); */
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    transition: 2s;
+}
+
+
+
+
+
+
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .secondSectionOfrightSectionForFirstSectionOfFooter {
+    width: 80%;
+    height: 45%;
+    /* background-color: rgb(255, 127, 244); */
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .thirdSectionOfrightSectionForFirstSectionOfFooter {
+    width: 80%;
+    height: 25%;
+    /* background-color: rgb(217, 255, 127); */
+    margin: 0 auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .firstSliderImage {
+    width: 270px;
+    height: 100%;
+    /* margin: 0 auto; */
+    /* background-color: rgb(208, 208, 211); */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid green;
+}
+
+.Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .firstSliderImage .firstSectionOfSliderImage1 {
+    width: 90%;
+    height: 15%;
+    background: #0F203A;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    flex-wrap: wrap;
+}
+
+.Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .firstSliderImage .secondSectionOfSliderImage1 {
+    width: 80%;
+    height: 60%;
+    /* background: #0F203A; */
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    flex-direction: column;
+    /* text-align: center; */
+    overflow: hidden;
+    border: 2px solid whitesmoke;
+    flex-wrap: wrap;
+}
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .firstSliderImage .thirdSectionOfSliderImage1 {
+    width: 80%;
+    height: 15%;
+    /* background: rgb(50, 151, 47); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .secondSliderImage {
+    width: 270px;
+    height: 100%;
+    /* margin: 0 auto; */
+    /* background-color: rgb(61, 80, 9); */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid green;
+}
+
+.Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .secondSliderImage .firstSectionOfSliderImage2 {
+    width: 90%;
+    height: 15%;
+    background: #0F203A;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    flex-wrap: wrap;
+}
+
+.Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .secondSliderImage .secondSectionOfSliderImage2 {
+    width: 75%;
+    /* margin: 0 auto; */
+    margin-left: 6%;
+    height: 60%;
+    /* background: #0F203A; */
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    flex-direction: column;
+    /* text-align: center; */
+    overflow: hidden;
+    border: 2px solid whitesmoke;
+    flex-wrap: wrap;
+}
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .secondSliderImage .thirdSectionOfSliderImage2 {
+    width: 80%;
+    height: 15%;
+    /* background: rgb(50, 151, 47); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .thirdSliderImage {
+    width: 270px;
+    height: 100%;
+    /* margin: 0 auto; */
+    /* background-color: rgb(61, 80, 9); */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid green;
+}
+
+.Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .thirdSliderImage .firstSectionOfSliderImage3 {
+    width: 90%;
+    height: 15%;
+    background: #0F203A;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    flex-wrap: wrap;
+}
+
+.Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .thirdSliderImage .secondSectionOfSliderImage3 {
+    width: 75%;
+    /* margin: 0 auto; */
+    margin-left: 6%;
+    height: 60%;
+    /* background: #0F203A; */
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    flex-direction: column;
+    /* text-align: center; */
+    overflow: hidden;
+    border: 2px solid whitesmoke;
+    flex-wrap: wrap;
+}
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .thirdSliderImage .thirdSectionOfSliderImage3 {
+    width: 80%;
+    height: 15%;
+    /* background: rgb(50, 151, 47); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .forthSliderImage {
+    width: 270px;
+    height: 100%;
+    /* margin: 0 auto; */
+    /* background-color: rgb(61, 80, 9); */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid green;
+}
+
+.Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .forthSliderImage .firstSectionOfSliderImage4 {
+    width: 90%;
+    height: 15%;
+    background: #0F203A;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    flex-wrap: wrap;
+}
+
+.Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .forthSliderImage .secondSectionOfSliderImage4 {
+    width: 75%;
+    /* margin: 0 auto; */
+    margin-left: 6%;
+    height: 60%;
+    /* background: #0F203A; */
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    flex-direction: column;
+    /* text-align: center; */
+    overflow: hidden;
+    border: 2px solid whitesmoke;
+    flex-wrap: wrap;
+}
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .forthSliderImage .thirdSectionOfSliderImage4 {
+    width: 80%;
+    height: 15%;
+    /* background: rgb(50, 151, 47); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .Middle .MiddleSectionContainer .fifthSectionOfMiddleSection {
+    width: 100%;
+    display: none;
+    height: 17%;
+    /* margin-top: 3%; */
+    background-color: rgb(68, 41, 41);
+    background-image: linear-gradient(1deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(30deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(60deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(90deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(110deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(140deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(170deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(200deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(230deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(260deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(290deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(310deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(340,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(360deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    animation: slider 15s infinite linear;
+    transition: 5s;
+}
+
+
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter {
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .firstSectionOfleftSectionForFirstSectionOfFooter {
+    width: 80%;
+    margin:0 auto;
+    height: 20%;
+    font-size: 13px;
+    /* font-weight: bolder; */
+    /* background-color: rgb(104, 7, 7); */
+    word-spacing: 6px;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .thirdSectionOfrightSectionForFirstSectionOfFooter {
+    width: 80%;
+    height: 25%;
+    /* background-color: rgb(217, 255, 127); */
+    margin: 0 auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .secondSectionOfleftSectionForFirstSectionOfFooter {
+    width: 80%;
+    margin:0 auto;
+    height: 20%;
+    font-size: 12px;
+    /* background-color: rgb(26, 119, 138); */
+    font-family: 'Volkhov', serif;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .thirdSectionOfleftSectionForFirstSectionOfFooter {
+    width: 80%;
+    margin:0 auto;
+
+    height: 20%;
+    font-size: 13px;
+    /* background-color: rgb(160, 169, 219); */
+    font-family: serif;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .fifthSectionOfleftSectionForFirstSectionOfFooter {
+    width: 80%;
+    margin: 0 auto;
+    height: 20%;
+    /* font-size: 15px; */
+    /* background-color: rgb(219, 160, 163); */
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .fifthSectionOfleftSectionForFirstSectionOfFooter .containerForFifthSectionOfleftSectionForFirstSectionOfFooter {
+    width: 96%;
+    height: 100%;
+    /* margin: 0 auto; */
+    border: 1px solid white;
+   
+    color: white;
+    box-shadow: 2px;
+    /* background-color: rgb(41, 51, 65); */
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.container .Footer .footerContainer .firstSectionOfFooter .middleSectionForFirstSectionOfFooter {
+    /* background-color: rgb(127, 146, 255); */
+    width: 40%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter {
+    /* background-color: rgb(255, 127, 206); */
+    width: 30%;
+    height: 100%;
+    display: none;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+    /* flex-direction: column; */
+}
+
+.container .Footer .footerContainer .secondSectionOfFooter .leftSectionForSecondSectionOfFooter {
+    width: 60%;
+    height: 100%;
+    /* background-color: rgb(58, 50, 15); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+    word-spacing: 6px;
+    padding-left: 10px;
+}
+
+.container .Footer .footerContainer .secondSectionOfFooter .middleSectionForSecondSectionOfFooter {
+    width: 25%;
+    font-size: 10px;
+    height: 100%;
+    /* background-color: rgb(109, 108, 101); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .Footer .footerContainer .secondSectionOfFooter .rightSectionForSecondSectionOfFooter {
+    width: 30%;
+    height: 100%;
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: rgb(58, 15, 21); */
+}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+    .container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space space-between;
+        width: 100%;
+        height: 568vh;
+        background: white;
+        background-repeat: no-repeat;
+        /* background-blend-mode: screen; */
+        background-size: cover;
+        font-family: 'Playfair Display SC', serif;
     }
 
-    .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .containerForFirstSectionOfMiddleSection .InputForFirstSectionOfMiddleSection .secondTextForInputForFirstSectionOfMiddleSection {
-        width: 87%;
-        height: 20%;
-        font-size: 11px;
+    .sidemenu {
         display: flex;
-        margin: 0 auto;
-        justify-content: space-around;
-        align-items: center;
-        color: whitesmoke;
+        /* margin-left: ; */
+        flex-direction: column;
+        width: 60%;
+        height: 80%;
+        background-color: transparent;
+        margin-left:80%;
+        margin-top:10px;
+        display: inline-block;
+        justify-content: space-evenly;
     }
     
-
+    .one{
+        width:100%;
+        height:16%;
+        margin:2px auto 4px auto;
+        /* margin-bottom: 7%; */
+        background: white;
+        border-radius: 20px;
+    }
+    
+    .two{
+        width:100%;
+        height:16%;
+        margin:2px auto 4px auto;
+        /* margin-bottom: 7%; */
+        background: white;
+        border-radius: 20px;
+    }
+    
+    .three{
+        width:100%;
+        height:16%;
+        margin:4px auto 0 auto;
+        /* margin-bottom: 7%; */
+        background: white;
+        border-radius: 20px;
+    }
+    
+    .container .Header {
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: #0F203A;
+        font-weight: bold;
+    }
+    
+    .container .Header .LeftSection {
+        width: 30%;
+        height: 95%;
+        display: flex;
+        /* background-color: blue; */
+        border: 2px solid rgb(206, 24, 24);
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+    }
+    
+    
+    
+    
+    .container .Header .RightSection {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        /* background-color: blueviolet; */
+    }
+    
+    
+    .container .Header .RightSection .topHeader {
+        height: 7vh;
+        width: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(280deg ,#EFF7FF,#0F203A);
+    }
+    
+    
+    .container .Header .RightSection .bottomHeader .middleSectionOfBottomHeader {
+        width: 75%;
+        height: inherit;
+        display: flex;
+        display: none;
+        justify-content: space-around;
+        align-content: center;
+        flex-grow: inherit;
+        /* background-color: yellow; */
+    }
+    
+    .container .Header .RightSection .bottomHeader .leftSectionOfBottomHeader {
+        width: 20%;
+        height: inherit;
+        /* background-color: brown; */
+        display: none;
+        align-items: center;
+    }
+    
+    .container .Header .LeftSection .logoSectionForLeftSection .upperSectionOfTheLogoSection {
+        width: 19%;
+        height: 2vh;
+        text-align: center;
+        /* background: #15116D; */
+        font-size: 14px;
+        margin-left: 10px;
+        padding: 0px;
+        position: absolute;
+        margin-top: 2px;
+        color: white;
+    }
+    
+    .container .Header .LeftSection .logoSectionForLeftSection .middleSectionOfTheLogoSection {
+        width: 100%;
+        height: 42%;
+        margin-top: 3vh;
+        /* background: rgb(81, 109, 17); */
+        font-size: 15px;
+        padding: 0px;
+        position: relative;
+        color: white;
+    }
+    
     .container .Header .LeftSection .logoSectionForLeftSection .bottomSectionOfTheLogoSection {
         width: 25%;
         height: 5vh;
         text-align: end;
+        /* background: rgb(109, 17, 86); */
         font-size: 10px;
         padding: 0px;
         position: absolute;
-        margin-top: 8.5vh;
+        margin-top: 5.9vh;
         color: white;
+        margin-left: 8px;
+    }
+    
+
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection {
+    max-width: 100%;
+    height: 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+      }
+
+      .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .containerForFirstSectionOfMiddleSection .InputForFirstSectionOfMiddleSection {
+        width: 42%;
+        height: 50%;
+        top: 48vh;
+        left: 1%;
+        display: none;
+        border-top-right-radius: 20%;
+        border-bottom-left-radius: 25%;
+        border: 1px solid rgba(0, 0, 0, 0.404);
+        background-color: rgba(228, 222, 222, 0.294);
+        position: relative;
+        /* display: flex; */
+        flex-direction: column;
+        font-weight: bolder;
     }
 
 
-.container .Header .LeftSection {
-    width: 30%;
-    height: 65%;
-    margin-left: 3%;
+    
+
+    .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .timerForSecondSectionOfMiddleSection {
+        width: 90%;
+        margin: 2% auto 0 auto;
+        height: 10%;
+        background-color: #d9d9d9;
+        display: flex;
+        justify-content: center;
+        /* position: sticky; */
+        align-items: center;
+        /* top: 0px; */
+        /* right: 0px; */
+        /* left: 0px; */
+        /* z-index: 999; */
+        position: -webkit-sticky;
+    }
+
+
+    .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .timerForSecondSectionOfMiddleSection .containerForTimer {
+        width: 90%;
+        display: flex;
+        font-size: 12px;
+        height: 100%;
+        color: #0F203A;
+        word-spacing: 20%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .timerForSecondSectionOfMiddleSection .containerForTimer #demo {
+        width: 100%;
+        height: 60%;
+        word-spacing: 10%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        display: flex;
+        word-spacing: 20%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    
+    .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection {
+        width: 100%;
+        height: 47%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .secondForSecondSectionOfMiddleSection {
+        width: 90%;
+        height: 50%;
+        background-color: #EFEFEF;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2% auto 0 auto;
+    }
+
+.container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .secondForSecondSectionOfMiddleSection .headerSectionForSecondForSecondSectionOfMiddleSection {
+    width: 90%;
+    height: 20%;
     display: flex;
-    border: 2px solid rgb(206, 24, 24);
-    border-top-right-radius: 50%;
-    border-top-left-radius: 50%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    font-size: 20px;
+    background-color: #0F203A;
+    /* border: 1px solid red; */
+    align-items: center;
+    word-spacing: 20%;
+    color: #0F203A;
+}
+.greed{
+    display: none;
 }
 
-.container .Header .RightSection .topHeader .topHeaderContainer {
+.container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .secondForSecondSectionOfMiddleSection .textSectionForSecondForSecondSectionOfMiddleSection {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    font-size: 12px;
+    /* background-color: aquamarine; */
+    color: #0F203A;
+}
+
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection {
+    width: 90%;
+    height: 39.5%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(4, 0, 255); */
+    display: flex;
+    border-radius: 10px;
+}
+
+.container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .thirdForSecondSectionOfMiddleSection .textSectionForThirdForSecondSectionOfMiddleSection {
+    width: 90%;
+    height: 40%;
+    /* background-color: rgb(109, 103, 17); */
+    margin: 0 auto;
+    font-size: 11px;
+}
+
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .secondSectionInContainerForThirdSectionOfMiddleSection {
+    width: 100%;
+    height: 10%;
+    display: none;
+    /* background-color: rgb(43, 255, 0); */
+}
+
+.Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection {
+    width: 100%;
+    height: 90%;
+    /* background-color: rgb(4, 0, 255); */
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection .leftSectionInContainerForThirdSectionOfMiddleSection {
+    width: 100%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 0%;
+    border: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection .rightSectionInContainerForThirdSectionOfMiddleSection {
+    width: 100%;
+    height: 50%;
+    background: #EFEFEF;
+    border-top-right-radius: 0%;
+}
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection .rightSectionInContainerForThirdSectionOfMiddleSection .containerForTextInRightSectionInContainerForThirdSectionOfMiddleSection .container1 {
+    font-size: 20px;
+    color: #0F203A;
+    font-weight: bolder;
+    width: 90%;
+    margin: 0 auto;
+    height: 10%;
+    /* background-color: red; */
+    /* bottom: 4%; */
+}
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection .rightSectionInContainerForThirdSectionOfMiddleSection .containerForTextInRightSectionInContainerForThirdSectionOfMiddleSection .container2 {
+    font-size: 16px;
+    color: #0F203A;
+    word-spacing: 10%;
+    overflow: hidden;
+    text-transform: capitalize;
+    height: 68%;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection .containerForThirdSectionOfMiddleSection .firstSectionInContainerForThirdSectionOfMiddleSection .rightSectionInContainerForThirdSectionOfMiddleSection .containerForTextInRightSectionInContainerForThirdSectionOfMiddleSection .container3 button {
+    font-size: 25px;
+    color: rgb(243, 237, 237);
+    word-spacing: 10%;
+    text-transform: capitalize;
+    width: 50%;
+    background-color: #0F203A;
+    margin-top: 2%;
+    height: 70%;
+    top: 20%;
+    border: 1px solid #EFEFEF;
+    font-family: 'Philosopher', sans-serif;
+}
+
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .headerContainer {
+    width: 100%;
+    height: 15%;
+    background-color: #d9d9d9;
+    color: #0F203A;
+    font-size: 20px;
+    font-weight: bolder;
+    justify-content: center;
+    display: flex;
+    flex-shrink: inherit;
+}
+
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer {
+    width: 1300px;
+    height: 85%;
+    /* margin: 0 auto; */
+    /* background-color: rgb(248, 242, 242); */
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    transition: 2s;
+}
+
+
+
+
+
+
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .secondSectionOfrightSectionForFirstSectionOfFooter {
+    width: 80%;
+    height: 45%;
+    /* background-color: rgb(255, 127, 244); */
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .thirdSectionOfrightSectionForFirstSectionOfFooter {
+    width: 80%;
+    height: 25%;
+    /* background-color: rgb(217, 255, 127); */
+    margin: 0 auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .firstSliderImage {
+    width: 325px;
+    height: 100%;
+    /* margin: 0 auto; */
+    /* background-color: rgb(208, 208, 211); */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid green;
+}
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .secondSliderImage {
+    width: 325px;
+    height: 100%;
+    /* margin: 0 auto; */
+    /* background-color: rgb(61, 80, 9); */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid green;
+}
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .thirdSliderImage {
+    width: 325px;
+    height: 100%;
+    /* margin: 0 auto; */
+    /* background-color: rgb(61, 80, 9); */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid green;
+}
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .forthSliderImage {
+    width: 325px;
+    height: 100%;
+    /* margin: 0 auto; */
+    /* background-color: rgb(61, 80, 9); */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid green;
+}
+
+.container .Middle .MiddleSectionContainer .fifthSectionOfMiddleSection {
+    width: 100%;
+    display: none;
+    height: 17%;
+    /* margin-top: 3%; */
+    background-color: rgb(68, 41, 41);
+    background-image: linear-gradient(1deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(30deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(60deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(90deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(110deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(140deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(170deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(200deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(230deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(260deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(290deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(310deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(340,rgb(252, 249, 249),rgb(0, 0, 0));
+    background-image: linear-gradient(360deg,rgb(252, 249, 249),rgb(0, 0, 0));
+    animation: slider 15s infinite linear;
+    transition: 5s;
+}
+
+
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter {
+    /* background-color: aquamarine; */
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .firstSectionOfleftSectionForFirstSectionOfFooter {
+    width: 80%;
+    margin:0 auto;
+    height: 20%;
+    font-size: 13px;
+    /* font-weight: bolder; */
+    /* background-color: rgb(104, 7, 7); */
+    word-spacing: 6px;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .thirdSectionOfrightSectionForFirstSectionOfFooter {
+    width: 80%;
+    height: 25%;
+    /* background-color: rgb(217, 255, 127); */
+    margin: 0 auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .secondSectionOfleftSectionForFirstSectionOfFooter {
+    width: 80%;
+    margin:0 auto;
+    height: 20%;
     font-size: 12px;
+    /* background-color: rgb(26, 119, 138); */
+    font-family: 'Volkhov', serif;
 }
 
-.container .Header .RightSection .bottomHeader {
-    width: 100%;
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .thirdSectionOfleftSectionForFirstSectionOfFooter {
+    width: 80%;
+    margin:0 auto;
+
+    height: 20%;
+    font-size: 13px;
+    /* background-color: rgb(160, 169, 219); */
+    font-family: serif;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .fifthSectionOfleftSectionForFirstSectionOfFooter {
+    width: 80%;
+    margin: 0 auto;
+    height: 20%;
+    /* font-size: 15px; */
+    /* background-color: rgb(219, 160, 163); */
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter .fifthSectionOfleftSectionForFirstSectionOfFooter .containerForFifthSectionOfleftSectionForFirstSectionOfFooter {
+    width: 96%;
+    height: 100%;
+    /* margin: 0 auto; */
+    border: 1px solid white;
+   
+    color: white;
+    box-shadow: 2px;
+    /* background-color: rgb(41, 51, 65); */
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.container .Footer .footerContainer .firstSectionOfFooter .middleSectionForFirstSectionOfFooter {
+    /* background-color: rgb(127, 146, 255); */
+    width: 40%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+}
+
+.container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter {
+    /* background-color: rgb(255, 127, 206); */
+    width: 30%;
+    height: 100%;
     display: none;
     justify-content: space-around;
+    /* align-items: flex-start; */
+    /* flex-direction: column; */
 }
 
-.container .Header .RightSection .bottomHeader {
-    height: 40%;
-    width: 100%;
+.container .Footer .footerContainer .secondSectionOfFooter .leftSectionForSecondSectionOfFooter {
+    width: 60%;
+    height: 100%;
+    /* background-color: rgb(58, 50, 15); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+    word-spacing: 6px;
+    padding-left: 10px;
+}
+
+.container .Footer .footerContainer .secondSectionOfFooter .middleSectionForSecondSectionOfFooter {
+    width: 25%;
+    font-size: 10px;
+    height: 100%;
+    /* background-color: rgb(109, 108, 101); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .Footer .footerContainer .secondSectionOfFooter .rightSectionForSecondSectionOfFooter {
+    width: 30%;
+    height: 100%;
     display: none;
-    justify-content: space-around;
-  
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: rgb(58, 15, 21); */
 }
-  }
-
+}
 
 
 
