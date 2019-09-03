@@ -337,20 +337,6 @@ align-self: center;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container .Middle{
     height:600vh;
     width:100%;
@@ -374,7 +360,13 @@ align-self: center;
 }
 
 
-
+.vagueText{
+    display:none;
+    font-size:30px;
+    position: absolute;
+    /* margin-top: 50vh; */
+    margin-left:10%;
+    }
 
 .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection{
 max-width:100%;
@@ -2059,8 +2051,6 @@ align-items: center;
     }
 
 
-    
-
     .container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .timerForSecondSectionOfMiddleSection {
         width: 90%;
         margin: 2% auto 0 auto;
@@ -2251,6 +2241,32 @@ align-items: center;
     font-family: 'Philosopher', sans-serif;
 }
 
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection {
+    width: 99%;
+    height: 80%;
+    margin: 5% auto;
+    background-color: #EFEFEF;
+    border: 5px solid grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.vagueText {
+    display: block;
+    width: 90%;
+    font-size: 32px;
+    position: absolute;
+    margin-top: 90%;
+    color: white;
+    margin-left: 5%;
+}
+
+.vagueText p{
+font-size: 20px15}
+
 .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .headerContainer {
     width: 100%;
     height: 15%;
@@ -2265,7 +2281,7 @@ align-items: center;
 
 
 .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer {
-    width: 1080px;
+    width: 1070px;
     height: 85%;
     /* margin: 0 auto; */
     /* background-color: rgb(248, 242, 242); */
@@ -2274,12 +2290,6 @@ align-items: center;
     /* flex-wrap: wrap; */
     transition: 2s;
 }
-
-
-
-
-
-
 
 .container .Footer .footerContainer .firstSectionOfFooter .rightSectionForFirstSectionOfFooter .containerForRightSectionOfrightSectionForFirstSectionOfFooter .secondSectionOfrightSectionForFirstSectionOfFooter {
     width: 80%;
@@ -2303,7 +2313,7 @@ align-items: center;
 }
 
 .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .firstSliderImage {
-    width: 270px;
+    width: 267px;
     height: 100%;
     /* margin: 0 auto; */
     /* background-color: rgb(208, 208, 211); */
@@ -2333,7 +2343,7 @@ align-items: center;
     width: 80%;
     height: 60%;
     /* background: #0F203A; */
-    font-size: 12px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2350,12 +2360,13 @@ align-items: center;
     height: 15%;
     /* background: rgb(50, 151, 47); */
     display: flex;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
 
 .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .secondSliderImage {
-    width: 270px;
+    width: 267px;
     height: 100%;
     /* margin: 0 auto; */
     /* background-color: rgb(61, 80, 9); */
@@ -2403,12 +2414,13 @@ align-items: center;
     height: 15%;
     /* background: rgb(50, 151, 47); */
     display: flex;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
 
 .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .thirdSliderImage {
-    width: 270px;
+    width: 267px;
     height: 100%;
     /* margin: 0 auto; */
     /* background-color: rgb(61, 80, 9); */
@@ -2458,10 +2470,11 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .forthSliderImage {
-    width: 270px;
+    width: 267px;
     height: 100%;
     /* margin: 0 auto; */
     /* background-color: rgb(61, 80, 9); */
@@ -2510,6 +2523,7 @@ align-items: center;
     /* background: rgb(50, 151, 47); */
     display: flex;
     justify-content: center;
+    margin: 0 auto;
     align-items: center;
 }
 
@@ -2699,6 +2713,20 @@ align-items: center;
         justify-content: space-evenly;
     }
     
+    .vagueText{
+        display: block;
+        width: 90%;
+        font-size: 32px;
+        position: absolute;
+        margin-top: 90%;
+        color: white;
+        margin-left: 5%;
+        }
+
+        .vagueText p{
+            font-size: 15px;
+            }
+
     .one{
         width:100%;
         height:16%;

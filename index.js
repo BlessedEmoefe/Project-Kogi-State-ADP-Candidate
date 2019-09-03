@@ -21,7 +21,21 @@ const mainSlide=() => {
 
 	var slideShow = () => {
 	if(new Date().getSeconds()%9 && count<3){
-		slideContainer.style.transform = `translateX(-${325*count}px)`
+		if(window.screen.width>480){
+			slideContainer.style.transform = `translateX(-${600*count}px)`
+			}
+			else if(window.screen.width>360 && window.screen.width<=480){
+				slideContainer.style.transform = `translateX(-${330*count}px)`
+				}
+	
+			else if(window.screen.width<=360){
+					slideContainer.style.transform = `translateX(-${329*count}px)`
+					}
+
+					else{
+						slideContainer.style.transform = `translateX(-${269*count}px)`
+					}
+
 		count++;
 		if(count==3){
 			count=0
@@ -33,7 +47,7 @@ const mainSlide=() => {
 		
 	};
 	
-	setInterval(slideShow,10000)
+	setInterval(slideShow,3000)
 }
 // slideShow()
 mainSlide()
