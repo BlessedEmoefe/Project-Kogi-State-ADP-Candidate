@@ -1,3 +1,22 @@
+let rex;
+const menuNav = document.querySelector(".sideMenuNav")
+const menu = document.querySelector(".sidemenu")
+let vague = document.querySelector(".vagueText")
+const eventFired =()=>{
+
+menu.addEventListener("click",()=>{
+if(menuNav.style.display!="flex"){
+		menuNav.style.display="flex";
+		vague.style.display = "none"
+
+}
+else{
+	menuNav.style.display="none"
+	vague.style.display = "block"
+}
+})
+}
+eventFired()
 var deadline = new Date("Nov 2, 2019 7:00:00").getTime(); 
 var x = setInterval(function() { 
 var now = new Date().getTime(); 
@@ -64,86 +83,50 @@ bioButton.addEventListener("click",blessed)
 
 
 
-const b = document.querySelector(".b")
-function indexRouting(){
-	location.href = "./Volunteer.html"
-}
-b.addEventListener("click",indexRouting)
-
-const c = document.querySelector(".c")
-const d = document.querySelector(".d")
-const e = document.querySelector(".e")
-const f = document.querySelector(".f")
-const g = document.querySelector(".g")
-const h = document.querySelector(".h")
-const i = document.querySelector(".i")
-const j = document.querySelector(".j")
-const k = document.querySelector(".k")
-const m = document.querySelector(".m")
-const n = document.querySelector(".n")
-
-c.addEventListener("click",indexRouting)
-d.addEventListener("click",indexRouting)
-e.addEventListener("click",indexRouting)
-f.addEventListener("click",indexRouting)
-g.addEventListener("click",indexRouting)
-g.addEventListener("click",indexRouting)
-h.addEventListener("click",indexRouting)
-i.addEventListener("click",indexRouting)
-j.addEventListener("click",indexRouting)
-k.addEventListener("click",indexRouting)
-m.addEventListener("click",indexRouting)
-n.addEventListener("click",indexRouting)
-
-
 const button1 = document.querySelector(".button1")
-
 const button2 = document.querySelector(".button2")
 const button3 = document.querySelector(".button3")
 const button4 = document.querySelector(".button4")
-const button5 = document.querySelector(".button5")
-
 
 
 const slide1 = document.querySelector(".secondSectionOfSliderImage1")
 const slide2 = document.querySelector(".secondSectionOfSliderImage2")
 const slide3 = document.querySelector(".secondSectionOfSliderImage3")
 const slide4 = document.querySelector(".secondSectionOfSliderImage4")
-const slide5 = document.querySelector(".secondSectionOfSliderImage5")
 
 
-
-function emoefe(){
+function emoefe1(){
 	slide1.style.overflow = "scroll"
 	
 }
 
-function emoefe1(){
+function emoefe2(){
 	slide2.style.overflow = "scroll"
 }
 
-function emoefe2(){
+function emoefe3(){
 	slide3.style.overflow = "scroll"
 }
 
-function emoefe3(){
+function emoefe4(){
 	slide4.style.overflow = "scroll"
 }
 
-function emoefe4(){
-	slide5.style.overflow = "scroll"
+
+button1.addEventListener("click",emoefe1)
+
+button2.addEventListener("click",emoefe2)
+
+button3.addEventListener("click",emoefe3)
+
+button4.addEventListener("click",emoefe4)
+
+
+const b = document.querySelector(".b")
+const c = document.querySelector(".c")
+function indexRouting(){
+	location.href = "./Volunteer.html"
 }
+b.addEventListener("click",indexRouting)
 
-
-
-
-button1.addEventListener("click",emoefe)
-
-button2.addEventListener("click",emoefe1)
-
-button3.addEventListener("click",emoefe2)
-
-button4.addEventListener("click",emoefe3)
-
-button5.addEventListener("click",emoefe4)
-
+c.addEventListener("click",indexRouting)

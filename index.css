@@ -7,8 +7,10 @@
 /* font-family: 'DM Serif Display', serif; */
 /* font-family: 'Playfair Display SC', serif; */
 /* font-family: 'Philosopher', sans-serif; */
-
-
+}
+.sideMenuNav{
+    display:none;
+   
 }
 
 .container{
@@ -24,6 +26,7 @@
     background-size: cover;
     font-family: 'Playfair Display SC', serif;
 }
+
 .container .Header{
 height:18vh;
 width:100%;
@@ -114,7 +117,7 @@ color:white;
     transition:3s;
 }
  .sidemenu{
-     display: flex;
+     /* display: flex; */
      flex-direction: column;
      width:70%;
      height:90%;
@@ -1029,6 +1032,7 @@ font-size: 20px;
     
     }
     
+    
     .container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .secondSliderImage .secondSectionOfSliderImage2{
         width:95%;
         margin:0 auto;
@@ -1897,7 +1901,7 @@ align-items: center;
         background-color: transparent;
         margin-left:80%;
         margin-top:10px;
-        display: inline-block;
+        /* display: inline-block; */
         justify-content: space-evenly;
     }
     
@@ -1927,6 +1931,57 @@ align-items: center;
         background: white;
         border-radius: 20px;
     }
+
+
+    .sidemenu:hover .sideMenuNav{
+        display: flex;
+      }
+
+    .sideMenuNav{
+        display: none;
+        position: absolute;
+        margin-top: 53px;
+        /* margin-left:70%; */
+        height:60vh;
+        flex-direction: column;
+        width:70%;
+        /* background: rgb(219, 160, 170); */
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .sideMenuNav li{
+        width:100%;
+        height:16.5%;
+        background: #EFF7FF ;
+         border-bottom:0.5px solid #0F203A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+    
+
+    .sideMenuNav li a:hover{
+color:#0F203A;
+text-decoration: none;
+    }
+
+    .sideMenuNav li a:link{
+        color:#0F203A;
+        text-decoration: none;
+    }
+
+    .sideMenuNav li a:active{
+        color:#0F203A;
+        text-decoration: none;
+    }
+
+    .sideMenuNav li a:visited{
+        color:#0F203A;
+        text-decoration: none;
+    }
+  
     
     .container .Header {
         height: 10vh;
@@ -2355,7 +2410,19 @@ font-size: 20px15}
     flex-wrap: wrap;
 }
 
-.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .firstSliderImage .thirdSectionOfSliderImage1 {
+.container .Middle .MiddleSectionContaine
+.container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .timerForSecondSectionOfMiddleSection:hover .containerForTimer #demo{
+    background:linear-gradient(280deg ,#EFF7FF,#0F203A);
+    color:#0F203A;
+    font-size: 65px; 
+    transition:2s;
+    word-spacing:30%;
+}
+
+.container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .timerForSecondSectionOfMiddleSection:hover {
+    background:linear-gradient(280deg ,#EFF7FF,#0F203A);
+    /* color: */
+}r .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .firstSliderImage .thirdSectionOfSliderImage1 {
     width: 80%;
     height: 15%;
     /* background: rgb(50, 151, 47); */
@@ -2686,6 +2753,8 @@ font-size: 20px15}
 
 @media only screen and (max-width: 480px) {
 
+  
+
     .container {
         flex: 1;
         display: flex;
@@ -2698,6 +2767,7 @@ font-size: 20px15}
         /* background-blend-mode: screen; */
         background-size: cover;
         font-family: 'Playfair Display SC', serif;
+        
     }
 
     .sidemenu {
@@ -2716,9 +2786,10 @@ font-size: 20px15}
     .vagueText{
         display: block;
         width: 90%;
-        font-size: 32px;
+        font-size: 28px;
         position: absolute;
         margin-top: 90%;
+        /* background: red; */
         color: white;
         margin-left: 5%;
         }
@@ -2753,6 +2824,93 @@ font-size: 20px15}
         background: white;
         border-radius: 20px;
     }
+
+    /* .sidemenu:hover .sideMenuNav{
+        display: block;
+      } */
+    
+
+    .sideMenuNav{
+        display: none;
+        position: absolute;
+        margin-top: 53px;
+        /* margin-left:%; */
+        height:60vh;
+        flex-direction: column;
+        width:70%;
+        background:#EFEFEF;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .sideMenuNav ul{
+        width:100%;
+        height:100%;
+        list-style-type: none;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
+    .sideMenuNav ul li{
+        width:100%;
+        height:16%;
+        border-bottom:1px solid black;
+    text-align: center;
+    /* background: #15116D; */
+
+    }
+
+    .sideMenuNav li a:hover{
+        color:#0F203A;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+height:100%;
+    }
+
+    .sideMenuNav li a:link{
+        color:#0F203A;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+height:100%;
+    }
+
+    .sideMenuNav li a:active{
+        color:#0F203A;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+height:100%;
+    }
+
+    .sideMenuNav li a:visited{
+        color:#0F203A;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+height:100%;
+    }
+  
     
     .container .Header {
         height: 10vh;
@@ -2773,6 +2931,20 @@ font-size: 20px15}
         border-top-left-radius: 50%;
     }
     
+
+
+.container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .timerForSecondSectionOfMiddleSection:hover .containerForTimer #demo{
+    background:linear-gradient(280deg ,#EFF7FF,#0F203A);
+    color:#0F203A;
+    font-size: 30px; 
+    transition:2s;
+    word-spacing:5%;
+}
+
+.container .Middle .MiddleSectionContainer .secondSectionOfMiddleSection .timerForSecondSectionOfMiddleSection:hover {
+    background:linear-gradient(280deg ,#EFF7FF,#0F203A);
+    /* color: */
+}
     
     
     
@@ -3196,6 +3368,26 @@ font-size: 20px15}
     animation: slider 15s infinite linear;
     transition: 5s;
 }
+
+/* 
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .firstSliderImage .thirdSectionOfSliderImage1 button:hover .secondSectionOfSliderImage1{
+    overflow:scroll;
+}
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .secondSliderImage .thirdSectionOfSliderImage2 button:hover .secondSectionOfSliderImage2{
+    overflow:scroll;
+}
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .thirdSliderImage .thirdSectionOfSliderImage3 button:hover .secondSectionOfSliderImage3{
+    overflow:scroll;
+}
+
+.container .Middle .MiddleSectionContainer .forthSectionOfMiddleSection .containerForForthSectionOfMiddleSection .sliderContainer .forthSliderImage .thirdSectionOfSliderImage4 button:hover .secondSectionOfSliderImage4{
+    overflow:scroll;
+} */
+
+
+
 
 
 .container .Footer .footerContainer .firstSectionOfFooter .leftSectionForFirstSectionOfFooter {

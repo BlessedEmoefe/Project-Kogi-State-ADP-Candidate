@@ -11,13 +11,18 @@
 
 }
 
+
+.sideMenuNav{
+    display: none;
+}
+
 .container{
     flex:1;
     display: flex;
     flex-direction: column;
     justify-items: inherit;
     width:100%;
-    height:468vh;
+    height:568vh;
     background:#EFF7FF;
     
     background-repeat: no-repeat;
@@ -322,7 +327,7 @@ align-self: center;
 
 
 .container .Middle{
-    height:400vh;
+    height:500vh;
     width:100%;
     display:flex;
     flex-direction: column;
@@ -346,7 +351,7 @@ align-self: center;
 
 .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection{
     width:100%;
-    height:82%;
+    height:85%;
     background-color: #EFF7FF;
     display:flex;
     flex-direction: column;
@@ -370,7 +375,7 @@ align-self: center;
     .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection{
         width:90%;
         margin:0 auto;
-        height:85%;
+        height:87%;
         display:flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -379,7 +384,7 @@ align-self: center;
     
     .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .formForSecondSectionForFirstSectionOfMiddleSection{
     width:40%;
-    height:20%;
+    height:17%;
     /* border:1px solid #0F203A; */
     display:flex;
     justify-content: space-around;
@@ -392,7 +397,7 @@ align-self: center;
     
     .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .imageForSecondSectionForFirstSectionOfMiddleSection{
         width:60%;
-        height:20%;
+        height:17%;
         border:1px solid #0F203A;
         display:flex;
         justify-content: space-around;
@@ -429,8 +434,12 @@ border-top-right-radius: 9px;
     
 }
 
+.container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .imageForSecondSectionForFirstSectionOfMiddleSection .newstory{
+overflow:scroll;
+}
+
 .container .Middle .MiddleSectionContainer .firstSectionOfMiddleSection .secondSectionForFirstSectionOfMiddleSection .gdiv{
-    height:30%;
+    height:24%;
     width:50%;
 }
 
@@ -458,7 +467,7 @@ background-color: rgb(154, 168, 43)
 
 .container .Middle .MiddleSectionContainer .thirdSectionOfMiddleSection{
     width:100%;
-height:18%;
+height:15%;
 background-color: red
 }
 
@@ -1045,7 +1054,7 @@ align-items: center;
 
 
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
 
     .container {
       flex: 1;
@@ -1053,7 +1062,7 @@ align-items: center;
       flex-direction: column;
       justify-content: space space-between;
       width: 100%;
-      height: 340vh;
+      height: 400vh;
       background: white;
       background-repeat: no-repeat;
       /* background-blend-mode: screen; */
@@ -1112,6 +1121,88 @@ align-items: center;
         /* margin-bottom: 7%; */
         background: white;
         border-radius: 20px;
+    }
+
+
+    .sideMenuNav{
+        display: none;
+        position: absolute;
+        margin-top: 53px;
+        /* margin-left:%; */
+        height:60vh;
+        flex-direction: column;
+        width:70%;
+        background:#EFEFEF;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .sideMenuNav ul{
+        width:100%;
+        height:100%;
+        list-style-type: none;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    
+    .sideMenuNav ul li{
+        width:100%;
+        height:16%;
+        border-bottom:1px solid black;
+    text-align: center;
+    /* background: #15116D; */
+    
+    }
+    
+    .sideMenuNav li a:hover{
+        color:#0F203A;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    height:100%;
+    }
+    
+    .sideMenuNav li a:link{
+        color:#0F203A;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    height:100%;
+    }
+    
+    .sideMenuNav li a:active{
+        color:#0F203A;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    height:100%;
+    }
+    
+    .sideMenuNav li a:visited{
+        color:#0F203A;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    height:100%;
     }
     
     .container .Header {
@@ -1309,9 +1400,16 @@ align-items: center;
     }
     
 
+    .container .Middle{
+        height:300vh;
+    }
 
-
-
+    .container .Footer {
+        height:50vh;
+        background: green;
+        margin-bottom: 0px;
+        margin-top: 100%;
+    }
 
 
 
@@ -1425,6 +1523,7 @@ align-items: center;
     /* height: 50vh; */
     margin-bottom: 0px;
     width: 100%;
+    height: 10%;
     display: flex;
     flex-direction: row;
     background-image: linear-gradient(

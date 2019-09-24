@@ -11,6 +11,10 @@
 
 }
 
+.sideMenuNav{
+    display: none;
+}
+
 .container{
     flex:1;
     display: flex;
@@ -1095,6 +1099,88 @@ align-items: center;
         border-radius: 20px;
     }
     
+
+    .sideMenuNav{
+        display: none;
+        position: absolute;
+        margin-top: 53px;
+        /* margin-left:%; */
+        height:60vh;
+        flex-direction: column;
+        width:70%;
+        background:#EFEFEF;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .sideMenuNav ul{
+        width:100%;
+        height:100%;
+        list-style-type: none;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    
+    .sideMenuNav ul li{
+        width:100%;
+        height:16%;
+        border-bottom:1px solid black;
+    text-align: center;
+    /* background: #15116D; */
+    
+    }
+    
+    .sideMenuNav li a:hover{
+        color:#0F203A;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    height:100%;
+    }
+    
+    .sideMenuNav li a:link{
+        color:#0F203A;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    height:100%;
+    }
+    
+    .sideMenuNav li a:active{
+        color:#0F203A;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    height:100%;
+    }
+    
+    .sideMenuNav li a:visited{
+        color:#0F203A;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    height:100%;
+    }
+
     .container .Header {
         height: 13vh;
         width: 100%;
